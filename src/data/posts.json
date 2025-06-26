@@ -12,7 +12,7 @@
     },
     "content": "Increíble experiencia en Copacabana",
     "images": [
-      "/src/assets/images/posts/copacabana.jpg" 
+      "/assets/images/posts/copacabana.jpg" 
       
     ],
     "likes": 245,
@@ -25,7 +25,7 @@
     "user": {
       "id": 102,
       "name": "Luisito Comunica",
-      "avatar": "/src/assets/images/users/luisito.jpg"
+      "avatar": "/assets/images/users/luisito.jpg"
     },
     "place": {
       "id": 5,
@@ -33,20 +33,20 @@
     },
     "content": "Explorando el Salar de Uyuni. Una cultura impresionante.",
     "images": [
-      "/src/assets/images/posts/uyuniluisito.jpg"
+      "/assets/images/posts/uyuniluisito.jpg"
     ],
     "likes": 187,
     "comments": 21,
     "date": "2023-07-22T09:15:00Z",
     "type": "video",
-    "videoUrl": "/src/assets/videos/salar-uyuni.mp4"
+    "videoUrl": "/assets/videos/salar-uyuni.mp4"
   },
   {
     "id": 3,
     "user": {
       "id": 103,
       "name": "Ana Gutiérrez",
-      "avatar": "/src/assets/images/users/ana-gutierrez.jpg"
+      "avatar": "/assets/images/users/ana-gutierrez.jpg"
     },
     "place": {
       "id": 2,
@@ -54,9 +54,9 @@
     },
     "content": "Explorando el Fuerte de Samaipata, un sitio arqueológico fascinante con increíbles vistas.",
     "images": [
-      "/src/assets/images/posts/samaipata-1.jpg",
-      "/src/assets/images/posts/samaipata-2.jpg",
-      "/src/assets/images/posts/samaipata-3.jpg"
+      "/assets/images/posts/samaipata-1.jpg",
+      "/assets/images/posts/samaipata-2.jpg",
+      "/assets/images/posts/samaipata-3.jpg"
     ],
     "likes": 132,
     "comments": 18,

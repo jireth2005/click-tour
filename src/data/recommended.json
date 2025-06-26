@@ -10,17 +10,17 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/images/places/samaipata.jpg",
+    "image": "/assets/images/places/samaipata.jpg",
     "title": "Samaipata",
     "location": "Santa Cruz, Bolivia",
     "rating": 4.7,
     "description": "Sitio arqueológico precolombino y ciudad turística.",
     "type": "video",
-    "videoUrl": "/src/assets/videos/samaipata.mp4"
+    "videoUrl": "/assets/videos/samaipata.mp4"
   },
   {
     "id": 3,
-    "image": "/src/assets/images/places/lago-titicaca.jpg",
+    "image": "/assets/images/places/lago-titicaca.jpg",
     "title": "Lago Titicaca",
     "location": "La Paz, Bolivia",
     "rating": 4.8,
@@ -29,17 +29,17 @@
   },
   {
     "id": 4,
-    "image": "/src/assets/images/places/tiwanaku.jpg",
+    "image": "/assets/images/places/tiwanaku.jpg",
     "title": "Tiwanaku",
     "location": "La Paz, Bolivia",
     "rating": 4.6,
     "description": "Importante sitio arqueológico preincaico.",
     "type": "video",
-    "videoUrl": "/src/assets/videos/tiwanaku.mp4"
+    "videoUrl": "/assets/videos/tiwanaku.mp4"
   },
   {
     "id": 5,
-    "image": "/src/assets/images/places/madidi.jpg",
+    "image": "/assets/images/places/madidi.jpg",
     "title": "Parque Nacional Madidi",
     "location": "La Paz, Bolivia",
     "rating": 4.9,
@@ -48,17 +48,17 @@
   },
   {
     "id": 6,
-    "image": "/src/assets/images/places/torotoro.jpg",
+    "image": "/assets/images/places/torotoro.jpg",
     "title": "Torotoro",
     "location": "Potosí, Bolivia",
     "rating": 4.7,
     "description": "Parque nacional con huellas de dinosaurios.",
     "type": "video",
-    "videoUrl": "/src/assets/videos/torotoro.mp4"
+    "videoUrl": "/assets/videos/torotoro.mp4"
   },  
   {
     "id": 7,
-    "image": "/src/assets/images/places/torotoro.jpg",
+    "image": "/assets/images/places/torotoro.jpg",
     "title": "Torotoro",
     "location": "Potosí, Bolivia",
     "rating": 4.7,
@@ -66,7 +66,7 @@
   },
   {
     "id": 8,
-    "image": "/src/assets/images/places/cerro_rico.jpg",
+    "image": "/assets/images/places/cerro_rico.jpg",
     "title": "Cerro Rico",
     "location": "Potosí, Bolivia",
     "rating": 4.6,
@@ -74,7 +74,7 @@
   },
   {
     "id": 9,
-    "image": "/src/assets/images/places/casa_de_la_moneda.jpg",
+    "image": "/assets/images/places/casa_de_la_moneda.jpg",
     "title": "Casa de la Moneda",
     "location": "Potosí, Bolivia",
     "rating": 4.7,
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "image": "/src/assets/images/places/laguna_colorada.jpg",
+    "image": "/assets/images/places/laguna_colorada.jpg",
     "title": "Laguna Colorada",
     "location": "Potosí, Bolivia",
     "rating": 4.8,
@@ -90,7 +90,7 @@
   },
   {
     "id": 11,
-    "image": "/src/assets/images/places/laguna_verde.jpg",
+    "image": "/assets/images/places/laguna_verde.jpg",
     "title": "Laguna Verde",
     "location": "Potosí, Bolivia",
     "rating": 4.6,
@@ -98,7 +98,7 @@
   },
   {
     "id": 12,
-    "image": "/src/assets/images/places/museo_santa_teresa.jpg",
+    "image": "/assets/images/places/museo_santa_teresa.jpg",
     "title": "Museo Santa Teresa",
     "location": "Potosí, Bolivia",
     "rating": 4.4,
@@ -106,7 +106,7 @@
   },
   {
     "id": 13,
-    "image": "/src/assets/images/places/iglesia_san_lorenzo.jpg",
+    "image": "/assets/images/places/iglesia_san_lorenzo.jpg",
     "title": "Iglesia San Lorenzo",
     "location": "Potosí, Bolivia",
     "rating": 4.5,
@@ -114,7 +114,7 @@
   },
   {
     "id": 14,
-    "image": "/src/assets/images/places/museo_minero.jpg",
+    "image": "/assets/images/places/museo_minero.jpg",
     "title": "Museo Minero",
     "location": "Oruro, Bolivia",
     "rating": 4.4,
@@ -122,7 +122,7 @@
   },
   {
     "id": 15,
-    "image": "/src/assets/images/places/santuario_del_socavon.jpg",
+    "image": "/assets/images/places/santuario_del_socavon.jpg",
     "title": "Santuario del Socavón",
     "location": "Oruro, Bolivia",
     "rating": 4.7,
@@ -130,7 +130,7 @@
   },
   {
     "id": 16,
-    "image": "/src/assets/images/places/carnaval_de_oruro.jpg",
+    "image": "/assets/images/places/carnaval_de_oruro.jpg",
     "title": "Carnaval de Oruro",
     "location": "Oruro, Bolivia",
     "rating": 4.9,
@@ -138,7 +138,7 @@
   },
   {
     "id": 17,
-    "image": "/src/assets/images/places/plaza_10_de_febrero.jpg",
+    "image": "/assets/images/places/plaza_10_de_febrero.jpg",
     "title": "Plaza 10 de Febrero",
     "location": "Oruro, Bolivia",
     "rating": 4.5,
@@ -146,7 +146,7 @@
   },
   {
     "id": 18,
-    "image": "/src/assets/images/places/casa_de_la_libertad.jpg",
+    "image": "/assets/images/places/casa_de_la_libertad.jpg",
     "title": "Casa de la Libertad",
     "location": "Chuquisaca, Bolivia",
     "rating": 4.8,
@@ -154,7 +154,7 @@
   },
   {
     "id": 19,
-    "image": "/src/assets/images/places/castillo_de_la_glorieta.jpg",
+    "image": "/assets/images/places/castillo_de_la_glorieta.jpg",
     "title": "Castillo de la Glorieta",
     "location": "Chuquisaca, Bolivia",
     "rating": 4.6,
@@ -162,7 +162,7 @@
   },
   {
     "id": 20,
-    "image": "/src/assets/images/places/museo_charcas.jpg",
+    "image": "/assets/images/places/museo_charcas.jpg",
     "title": "Museo Charcas",
     "location": "Chuquisaca, Bolivia",
     "rating": 4.4,
@@ -170,7 +170,7 @@
   },
   {
     "id": 21,
-    "image": "/src/assets/images/places/parque_cretacico.jpg",
+    "image": "/assets/images/places/parque_cretacico.jpg",
     "title": "Parque Cretácico",
     "location": "Chuquisaca, Bolivia",
     "rating": 4.7,
@@ -178,7 +178,7 @@
   },
   {
     "id": 22,
-    "image": "/src/assets/images/places/mirador_de_los_suenos.jpg",
+    "image": "/assets/images/places/mirador_de_los_suenos.jpg",
     "title": "Mirador de los Sueños",
     "location": "Tarija, Bolivia",
     "rating": 4.6,
@@ -186,7 +186,7 @@
   },
   {
     "id": 23,
-    "image": "/src/assets/images/places/vinedos_kohlberg.jpg",
+    "image": "/assets/images/places/vinedos_kohlberg.jpg",
     "title": "Viñedos Kohlberg",
     "location": "Tarija, Bolivia",
     "rating": 4.7,
@@ -194,7 +194,7 @@
   },
   {
     "id": 24,
-    "image": "/src/assets/images/places/laguna_suarez.jpg",
+    "image": "/assets/images/places/laguna_suarez.jpg",
     "title": "Laguna Suárez",
     "location": "Beni, Bolivia",
     "rating": 4.3,
@@ -202,7 +202,7 @@
   },
   {
     "id": 25,
-    "image": "/src/assets/images/places/reserva_del_beni.jpg",
+    "image": "/assets/images/places/reserva_del_beni.jpg",
     "title": "Reserva del Beni",
     "location": "Beni, Bolivia",
     "rating": 4.7,
@@ -210,7 +210,7 @@
   },
   {
     "id": 26,
-    "image": "/src/assets/images/places/plaza_principal_cobija.jpg",
+    "image": "/assets/images/places/plaza_principal_cobija.jpg",
     "title": "Plaza Principal Cobija",
     "location": "Pando, Bolivia",
     "rating": 4.5,
@@ -218,7 +218,7 @@
   },
   {
     "id": 27,
-    "image": "/src/assets/images/places/museo_amazonia.jpg",
+    "image": "/assets/images/places/museo_amazonia.jpg",
     "title": "Museo Amazonia",
     "location": "Pando, Bolivia",
     "rating": 4.3,
@@ -226,7 +226,7 @@
   },
   {
     "id": 28,
-    "image": "/src/assets/images/places/reserva_manuripi.jpg",
+    "image": "/assets/images/places/reserva_manuripi.jpg",
     "title": "Reserva Manuripi",
     "location": "Pando, Bolivia",
     "rating": 4.6,
@@ -234,7 +234,7 @@
   },
   {
     "id": 29,
-    "image": "/src/assets/images/places/ecoaventura_pando.jpg",
+    "image": "/assets/images/places/ecoaventura_pando.jpg",
     "title": "Ecoaventura Pando",
     "location": "Pando, Bolivia",
     "rating": 4.5,
@@ -242,7 +242,7 @@
   },
   {
     "id": 30,
-    "image": "/src/assets/images/places/teleferico_la_paz.jpg",
+    "image": "/assets/images/places/teleferico_la_paz.jpg",
     "title": "Teleférico La Paz",
     "location": "La Paz, Bolivia",
     "rating": 4.8,
@@ -250,7 +250,7 @@
   },
   {
     "id": 31,
-    "image": "/src/assets/images/places/valle_de_la_luna.jpg",
+    "image": "/assets/images/places/valle_de_la_luna.jpg",
     "title": "Valle de la Luna",
     "location": "La Paz, Bolivia",
     "rating": 4.5,

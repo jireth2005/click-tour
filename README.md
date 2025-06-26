@@ -98,7 +98,7 @@ Contiene información sobre lugares turísticos, hoteles y restaurantes:
   "lng": -68.1500,
   "description": "Descripción del lugar",
   "rating": 4.5,
-  "image": "/src/assets/images/places/imagen.jpg"
+  "image": "/assets/images/places/imagen.jpg"
 }
 ```
 
@@ -118,7 +118,7 @@ Contiene las publicaciones de los usuarios:
     "name": "Nombre Lugar"
   },
   "content": "Texto de la publicación",
-  "images": ["/src/assets/images/posts/imagen1.jpg"],
+  "images": ["/assets/images/posts/imagen1.jpg"],
   "likes": 245,
   "comments": 32,
   "date": "2023-06-15T14:30:00Z"
@@ -134,7 +134,7 @@ Contiene información de los usuarios:
   "id": 101,
   "name": "Nombre Usuario",
   "username": "nombre_usuario",
-  "avatar": "/src/assets/images/users/avatar.jpg",
+  "avatar": "/assets/images/users/avatar.jpg",
   "bio": "Descripción del usuario",
   "followers": 1240,
   "following": 350,

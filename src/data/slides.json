@@ -2,7 +2,7 @@
   {
     "title": "Descubre Bolivia",
     "description": "Explora los destinos más increíbles de Bolivia y conecta con comunidades locales",
-    "image": "/src/assets/images/places/descubre-bolivia.jpg",
+    "image": "/assets/images/places/descubre-bolivia.jpg",
     "buttonText": "Explorar destinos"
   },
   {
@@ -17,4 +17,4 @@
     "image": "/src/assets/images/places/conecta-locales.jpg",
     "buttonText": "Conectar"
   }
-] 
+]

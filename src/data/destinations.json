@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/images/places/salar-uyuni.jpg",
+    "image": "/assets/images/places/salar-uyuni.jpg",
     "title": "Salar de Uyuni",
     "location": "Potosí, Bolivia",
     "rating": 4.9,
@@ -641,4 +641,4 @@
     "type": "image"
   }
 
-] 
+]

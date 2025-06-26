@@ -4,7 +4,7 @@
     "user": {
       "id": 101,
       "name": "María López",
-      "avatar": "/src/assets/images/users/maria.jpg"
+      "avatar": "/assets/images/users/maria.jpg"
     },
     "place": {
       "id": 1,
@@ -63,4 +63,4 @@
     "date": "2023-08-05T16:45:00Z",
     "type": "image"
   }
-] 
+]

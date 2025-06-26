@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/images/places/salar-uyuni.jpg",
+    "title": "Salar de Uyuni",
+    "location": "Potosí, Bolivia",
+    "rating": 4.9,
+    "description": "El mayor desierto de sal continuo y alto del mundo.",
+    "type": "image"
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/images/places/samaipata.jpg",
+    "title": "Samaipata",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.7,
+    "description": "Sitio arqueológico precolombino y ciudad turística.",
+    "type": "video",
+    "videoUrl": "/src/assets/videos/samaipata.mp4"
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/images/places/lago-titicaca.jpg",
+    "title": "Lago Titicaca",
+    "location": "La Paz, Bolivia",
+    "rating": 4.8,
+    "description": "El lago navegable más alto del mundo.",
+    "type": "image"
+  },
+  {
+    "id": 4,
+    "image": "/src/assets/images/places/tiwanaku.jpg",
+    "title": "Tiwanaku",
+    "location": "La Paz, Bolivia",
+    "rating": 4.6,
+    "description": "Importante sitio arqueológico preincaico.",
+    "type": "video",
+    "videoUrl": "/src/assets/videos/tiwanaku.mp4"
+  },
+  {
+    "id": 5,
+    "image": "/src/assets/images/places/madidi.jpg",
+    "title": "Parque Nacional Madidi",
+    "location": "La Paz, Bolivia",
+    "rating": 4.9,
+    "description": "Uno de los parques con mayor biodiversidad del mundo.",
+    "type": "image"
+  },
+  {
+    "id": 6,
+    "image": "/src/assets/images/places/torotoro.jpg",
+    "title": "Torotoro",
+    "location": "Potosí, Bolivia",
+    "rating": 4.7,
+    "description": "Parque nacional con huellas de dinosaurios.",
+    "type": "video",
+    "videoUrl": "/src/assets/videos/torotoro.mp4"
+  },  
+  {
+    "id": 7,
+    "image": "/src/assets/images/places/torotoro.jpg",
+    "title": "Torotoro",
+    "location": "Potosí, Bolivia",
+    "rating": 4.7,
+    "description": "Parque nacional conocido por sus impresionantes formaciones rocosas, cuevas y huellas de dinosaurios prehistóricos que atraen a turistas y científicos."
+  },
+  {
+    "id": 8,
+    "image": "/src/assets/images/places/cerro_rico.jpg",
+    "title": "Cerro Rico",
+    "location": "Potosí, Bolivia",
+    "rating": 4.6,
+    "description": "Montaña histórica famosa por sus minas de plata explotadas desde la época colonial, símbolo del auge económico y la explotación minera."
+  },
+  {
+    "id": 9,
+    "image": "/src/assets/images/places/casa_de_la_moneda.jpg",
+    "title": "Casa de la Moneda",
+    "location": "Potosí, Bolivia",
+    "rating": 4.7,
+    "description": "Edificio histórico que funcionó como la ceca colonial, donde se acuñaban monedas; ahora es un museo que muestra la historia minera y monetaria."
+  },
+  {
+    "id": 10,
+    "image": "/src/assets/images/places/laguna_colorada.jpg",
+    "title": "Laguna Colorada",
+    "location": "Potosí, Bolivia",
+    "rating": 4.8,
+    "description": "Lago salado famoso por su color rojo intenso y la gran cantidad de flamencos que habitan sus aguas, formando un paisaje natural único."
+  },
+  {
+    "id": 11,
+    "image": "/src/assets/images/places/laguna_verde.jpg",
+    "title": "Laguna Verde",
+    "location": "Potosí, Bolivia",
+    "rating": 4.6,
+    "description": "Lago ubicado al pie del volcán Licancabur, conocido por sus aguas de color verde debido a minerales presentes, ofrece vistas espectaculares."
+  },
+  {
+    "id": 12,
+    "image": "/src/assets/images/places/museo_santa_teresa.jpg",
+    "title": "Museo Santa Teresa",
+    "location": "Potosí, Bolivia",
+    "rating": 4.4,
+    "description": "Antiguo convento convertido en museo, que exhibe arte religioso, arquitectura colonial y la historia de la región."
+  },
+  {
+    "id": 13,
+    "image": "/src/assets/images/places/iglesia_san_lorenzo.jpg",
+    "title": "Iglesia San Lorenzo",
+    "location": "Potosí, Bolivia",
+    "rating": 4.5,
+    "description": "Templo colonial con una arquitectura barroca impresionante, centro de la fe católica y patrimonio cultural en Potosí."
+  },
+  {
+    "id": 14,
+    "image": "/src/assets/images/places/museo_minero.jpg",
+    "title": "Museo Minero",
+    "location": "Oruro, Bolivia",
+    "rating": 4.4,
+    "description": "Museo dedicado a la historia y técnica de la minería en Bolivia, con exhibiciones de herramientas y minerales."
+  },
+  {
+    "id": 15,
+    "image": "/src/assets/images/places/santuario_del_socavon.jpg",
+    "title": "Santuario del Socavón",
+    "location": "Oruro, Bolivia",
+    "rating": 4.7,
+    "description": "Iglesia emblemática y punto focal del Carnaval de Oruro, declarada Patrimonio Cultural Inmaterial de la Humanidad."
+  },
+  {
+    "id": 16,
+    "image": "/src/assets/images/places/carnaval_de_oruro.jpg",
+    "title": "Carnaval de Oruro",
+    "location": "Oruro, Bolivia",
+    "rating": 4.9,
+    "description": "Famosa fiesta tradicional con danzas y máscaras coloridas, que representa la mezcla de culturas andina y católica."
+  },
+  {
+    "id": 17,
+    "image": "/src/assets/images/places/plaza_10_de_febrero.jpg",
+    "title": "Plaza 10 de Febrero",
+    "location": "Oruro, Bolivia",
+    "rating": 4.5,
+    "description": "Plaza principal de Oruro, centro de actividades culturales y sociales, con arquitectura típica y monumentos históricos."
+  },
+  {
+    "id": 18,
+    "image": "/src/assets/images/places/casa_de_la_libertad.jpg",
+    "title": "Casa de la Libertad",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.8,
+    "description": "Edificio histórico donde se proclamó la independencia de Bolivia, hoy museo con documentos y objetos de la historia nacional."
+  },
+  {
+    "id": 19,
+    "image": "/src/assets/images/places/castillo_de_la_glorieta.jpg",
+    "title": "Castillo de la Glorieta",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.6,
+    "description": "Construcción de estilo europeo que destaca por su arquitectura y jardines, popular para eventos y turismo."
+  },
+  {
+    "id": 20,
+    "image": "/src/assets/images/places/museo_charcas.jpg",
+    "title": "Museo Charcas",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.4,
+    "description": "Museo con colecciones arqueológicas y etnográficas que muestran la riqueza cultural de la región."
+  },
+  {
+    "id": 21,
+    "image": "/src/assets/images/places/parque_cretacico.jpg",
+    "title": "Parque Cretácico",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.7,
+    "description": "Parque temático que exhibe huellas de dinosaurios y ofrece senderos naturales para el turismo educativo y recreativo."
+  },
+  {
+    "id": 22,
+    "image": "/src/assets/images/places/mirador_de_los_suenos.jpg",
+    "title": "Mirador de los Sueños",
+    "location": "Tarija, Bolivia",
+    "rating": 4.6,
+    "description": "Lugar panorámico que ofrece vistas espectaculares de la ciudad y los valles circundantes, ideal para el turismo natural."
+  },
+  {
+    "id": 23,
+    "image": "/src/assets/images/places/vinedos_kohlberg.jpg",
+    "title": "Viñedos Kohlberg",
+    "location": "Tarija, Bolivia",
+    "rating": 4.7,
+    "description": "Viñedos reconocidos que ofrecen tours y degustaciones de vinos locales, reflejando la tradición vitivinícola de la región."
+  },
+  {
+    "id": 24,
+    "image": "/src/assets/images/places/laguna_suarez.jpg",
+    "title": "Laguna Suárez",
+    "location": "Beni, Bolivia",
+    "rating": 4.3,
+    "description": "Reserva natural con abundante flora y fauna, ideal para la observación de aves y ecoturismo en la Amazonía boliviana."
+  },
+  {
+    "id": 25,
+    "image": "/src/assets/images/places/reserva_del_beni.jpg",
+    "title": "Reserva del Beni",
+    "location": "Beni, Bolivia",
+    "rating": 4.7,
+    "description": "Área protegida que conserva ecosistemas amazónicos y especies en peligro, promoviendo el turismo sostenible."
+  },
+  {
+    "id": 26,
+    "image": "/src/assets/images/places/plaza_principal_cobija.jpg",
+    "title": "Plaza Principal Cobija",
+    "location": "Pando, Bolivia",
+    "rating": 4.5,
+    "description": "Centro neurálgico de la ciudad de Cobija, con espacios para eventos culturales y recreativos."
+  },
+  {
+    "id": 27,
+    "image": "/src/assets/images/places/museo_amazonia.jpg",
+    "title": "Museo Amazonia",
+    "location": "Pando, Bolivia",
+    "rating": 4.3,
+    "description": "Museo dedicado a la biodiversidad y cultura amazónica, con exposiciones interactivas y educativas."
+  },
+  {
+    "id": 28,
+    "image": "/src/assets/images/places/reserva_manuripi.jpg",
+    "title": "Reserva Manuripi",
+    "location": "Pando, Bolivia",
+    "rating": 4.6,
+    "description": "Reserva natural con ecosistemas amazónicos protegidos, ideal para ecoturismo y exploración de fauna y flora."
+  },
+  {
+    "id": 29,
+    "image": "/src/assets/images/places/ecoaventura_pando.jpg",
+    "title": "Ecoaventura Pando",
+    "location": "Pando, Bolivia",
+    "rating": 4.5,
+    "description": "Destino ecoturístico que ofrece actividades al aire libre y contacto directo con la naturaleza amazónica."
+  },
+  {
+    "id": 30,
+    "image": "/src/assets/images/places/teleferico_la_paz.jpg",
+    "title": "Teleférico La Paz",
+    "location": "La Paz, Bolivia",
+    "rating": 4.8,
+    "description": "Sistema de transporte aéreo que conecta varios sectores de la ciudad, ofreciendo vistas panorámicas únicas."
+  },
+  {
+    "id": 31,
+    "image": "/src/assets/images/places/valle_de_la_luna.jpg",
+    "title": "Valle de la Luna",
+    "location": "La Paz, Bolivia",
+    "rating": 4.5,
+    "description": "Formaciones rocosas erosionadas que crean un paisaje lunar, atractivo natural para senderismo y fotografía.",
+    "type": "image"
+  }
+] 

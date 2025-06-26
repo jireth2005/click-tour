@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PlaceCard from '../components/explore/PlaceCard.astro';
+import { recommended } from '../data';
+
+// Usamos los datos importados para los lugares recomendados
+const recommendedPlaces = recommended;
+
+// Categorías para filtrar
+const categories = [
+  { id: 'all', name: 'Todos', active: true },
+  { id: 'nature', name: 'Naturaleza', active: false },
+  { id: 'culture', name: 'Cultura', active: false },
+  { id: 'adventure', name: 'Aventura', active: false },
+  { id: 'gastronomy', name: 'Gastronomía', active: false }
+];
+---
+
+<Layout title="Tour Click - Explorar">
+  <main class="pb-20 px-4">
+    <div class="relative mb-4">
+      <input 
+        type="text" 
+        placeholder="¿Qué quieres descubrir hoy?" 
+        class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
+      >
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </div>
+    </div>
+    
+    <div class="mb-6 flex overflow-x-auto space-x-2 py-2">
+      {categories.map(category => (
+        <button class={`px-4 py-1 rounded-full text-sm whitespace-nowrap ${category.active ? 'bg-primary text-white' : 'bg-white border border-gray-300 text-gray-700'}`}>
+          {category.name}
+        </button>
+      ))}
+    </div>
+    
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Recomendados para ti</h2>
+      <div class="grid grid-cols-2 gap-4">
+        {recommendedPlaces.map(place => (
+          <PlaceCard
+            image={place.image}
+            title={place.title}
+            location={place.location}
+            rating={place.rating}
+            description={place.description}
+            type={place.type || 'image'}
+            videoUrl={place.videoUrl}
+          />
+        ))}
+      </div>
+    </div>
+    
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Experiencias populares</h2>
+      <div class="grid grid-cols-2 gap-4">
+        {recommendedPlaces.slice(2, 6).map(place => (
+          <PlaceCard
+            image={place.image}
+            title={place.title}
+            location={place.location}
+            rating={place.rating}
+            type={place.type || 'image'}
+            videoUrl={place.videoUrl}
+          />
+        ))}
+      </div>
+    </div>
+    
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Cerca de ti</h2>
+      <div class="grid grid-cols-2 gap-4">
+        {recommendedPlaces.slice(4, 6).concat(recommendedPlaces.slice(0, 2)).map(place => (
+          <PlaceCard
+            image={place.image}
+            title={place.title}
+            location={place.location}
+            rating={place.rating}
+            type={place.type || 'image'}
+            videoUrl={place.videoUrl}
+          />
+        ))}
+      </div>
+    </div>
+  </main>
+</Layout> 

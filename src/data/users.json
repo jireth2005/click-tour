@@ -1,0 +1,32 @@
+[
+  {
+    "id": 101,
+    "name": "Maria López",
+    "username": "maria_travels",
+    "avatar": "/src/assets/images/users/maria.jpg",
+    "bio": "Amante de los viajes y la fotografía. Explorando Bolivia un destino a la vez.",
+    "followers": 12408,
+    "following": 357,
+    "posts": 87
+  },
+  {
+    "id": 102,
+    "name": "Luisito Comunica",
+    "username": "luisito_comunica",
+    "avatar": "/src/assets/images/users/luisito.jpg",
+    "bio": "Guía turístico profesional. Especialista en turismo de aventura en el Mundo.",
+    "followers": 635410,
+    "following": 412,
+    "posts": 156
+  },
+  {
+    "id": 103,
+    "name": "Ana Gutiérrez",
+    "username": "ana_travels",
+    "avatar": "/src/assets/images/users/ana-gutierrez.jpg",
+    "bio": "Historiadora y viajera. Fascinada por los sitios arqueológicos de Bolivia.",
+    "followers": 1850,
+    "following": 275,
+    "posts": 124
+  }
+] 

@@ -1,0 +1,270 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Datos simulados para el perfil
+const userProfile = {
+  name: "Karo Cespedez",
+  username: "@Karo_trips",
+  bio: "Exploradora de lugares remotos | Fotógrafa aficionada | Amante de la naturaleza y la cultura boliviana",
+  profileImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoi4u_al-tmJXUESVyAZWaQ3inIFODOf0Tbw&s",
+  coverImage: "https://scontent.flpb1-2.fna.fbcdn.net/v/t39.30808-6/480767729_590280787213096_3367183671897581955_n.jpg?stp=cp6_dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=QTMd8fT7czgQ7kNvwHZXS0t&_nc_oc=AdkjS11iHJ4TRRZ6tIZAdNNe0PyzMqCp0pqSCaGQmRJd1oAk6y56JVhPTsth05rlqcQ&_nc_zt=23&_nc_ht=scontent.flpb1-2.fna&_nc_gid=OHJltj4fzsDO6bMk30o5JQ&oh=00_AfOGZgX0qlFfNVLp5GjFNOzHEYjRIhhC7Lg06Lmly_0jYg&oe=6861FD18",
+  location: "Santa Cruz, Bolivia",
+  stats: {
+    posts: 8,
+    followers: 1586,
+    following: 142,
+  },
+  isOwner: false, // Cambiar a true para ver la vista de propietario
+};
+
+// Datos simulados para las publicaciones del usuario
+const userPosts = [
+  {
+    id: 1,
+    image: "https://i.pinimg.com/736x/b3/dd/71/b3dd71d5de95be877d3d6895eaae1436.jpg",
+    title: "Copacabana",
+    location: "La Paz, Bolivia",
+  },
+  {
+    id: 2,
+    image: "https://i.pinimg.com/736x/4b/55/25/4b55253357caf33b2c03ec7f6aa1e0da.jpg",
+    title: "Catedral de San Lorenzo",
+    location: "Santa Cruz, Bolivia",
+  },
+  {
+    id: 3,
+    image: "https://i.pinimg.com/736x/4f/32/23/4f32231ec9525755a0315b7bf0ed978f.jpg",
+    title: "Robore",
+    location: "Santa Cruz, Bolivia",
+  },
+  {
+    id: 4,
+    image: "https://i.pinimg.com/736x/85/dd/62/85dd62931518a46577d5e47b1b7cfbf3.jpg",
+    title: "Samaipata",
+    location: "Santa Cruz, Bolivia",
+  },
+   {
+    id: 5,
+    image: "https://i.pinimg.com/736x/45/ac/f5/45acf58874277171bb43265e53d6cd0a.jpg",
+    title: "Aguas Calientes",
+    location: "Santa Cruz, Bolivia",
+  }, {
+    id: 6,
+    image: "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/332650/2000x2000-0-70-ca14224a78359074a2b82ee84b56fdb0.jpg",
+    title: "Porongo",
+    location: "Santa Cruz, Bolivia",
+  }, {
+    id: 7,
+    image: "https://i.pinimg.com/736x/65/64/21/6564215119e3185f4f0ce10bee650326.jpg",
+    title: "La Rinconada",
+    location: "Santa Cruz, Bolivia",
+  }, {
+    id: 8,
+    image: "https://i.pinimg.com/736x/3c/79/ed/3c79eddd6f88de1eab5f3bb485032161.jpg",
+    title: "El Cristo ",
+    location: "Cochabamba, Bolivia",
+  },
+];
+
+// Datos simulados para el lugar (si es propietario)
+const placeInfo = {
+  name: "Eco Lodge Amazonía",
+  description: "Alojamiento ecológico en medio de la selva amazónica boliviana. Ofrecemos experiencias auténticas y sostenibles para conectar con la naturaleza.",
+  location: "Rurrenabaque, Beni, Bolivia",
+  amenities: ["WiFi", "Desayuno incluido", "Tours guiados", "Transporte", "Aire acondicionado"],
+  priceRange: "$$ - $$$",
+  openingHours: "8:00 AM - 8:00 PM",
+  contactPhone: "+591 71234567",
+  contactEmail: "ecolodge@ejemplo.com",
+  accessibility: ["Acceso para sillas de ruedas", "Señalización en braille"]
+};
+---
+
+<Layout title="Tour Click - Perfil">
+  <main class="pb-20">
+    <div class="relative">
+      <div class="h-40 bg-gray-300">
+        <img src={userProfile.coverImage} alt="Portada" class="w-full h-full object-cover">
+      </div>
+      
+      <div class="absolute left-4 -bottom-16 border-4 border-white rounded-full overflow-hidden w-32 h-32 bg-white">
+        <img src={userProfile.profileImage} alt={userProfile.name} class="w-full h-full object-cover">
+      </div>
+      
+      <div class="absolute right-4 bottom-4 flex space-x-2">
+        <button class="bg-white rounded-full p-2 shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+          </svg>
+        </button>
+        <button class="bg-white rounded-full p-2 shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <div class="mt-20 px-4">
+      <div class="mb-6">
+        <h1 class="text-2xl font-bold text-gray-900">{userProfile.name}</h1>
+        <p class="text-sm text-gray-500">{userProfile.username}</p>
+        <p class="text-gray-700 mt-2">{userProfile.bio}</p>
+        
+        <div class="flex items-center mt-2 text-sm text-gray-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          {userProfile.location}
+        </div>
+      </div>
+      
+      <div class="flex justify-around mb-6 border-y border-gray-200 py-3">
+        <div class="text-center">
+          <p class="font-semibold text-gray-900">{userProfile.stats.posts}</p>
+          <p class="text-xs text-gray-500">Publicaciones</p>
+        </div>
+        <div class="text-center">
+          <p class="font-semibold text-gray-900">{userProfile.stats.followers}</p>
+          <p class="text-xs text-gray-500">Seguidores</p>
+        </div>
+        <div class="text-center">
+          <p class="font-semibold text-gray-900">{userProfile.stats.following}</p>
+          <p class="text-xs text-gray-500">Siguiendo</p>
+        </div>
+      </div>
+      
+      {userProfile.isOwner ? (
+        <div class="mb-6">
+          <h2 class="text-lg font-semibold text-gray-800 mb-3">Información de mi lugar</h2>
+          
+          <div class="bg-white rounded-lg shadow-sm p-4 mb-4">
+            <h3 class="font-semibold text-primary text-lg mb-1">{placeInfo.name}</h3>
+            <p class="text-sm text-gray-600 mb-3">{placeInfo.description}</p>
+            
+            <div class="text-sm text-gray-700 space-y-2">
+              <div class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-500 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span>{placeInfo.location}</span>
+              </div>
+              
+              <div class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-500 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{placeInfo.openingHours}</span>
+              </div>
+              
+              <div class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-500 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>{placeInfo.contactPhone}</span>
+              </div>
+              
+              <div class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-500 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>{placeInfo.contactEmail}</span>
+              </div>
+            </div>
+            
+            <div class="mt-4">
+              <h4 class="font-medium text-gray-800 mb-2">Comodidades:</h4>
+              <div class="flex flex-wrap gap-2">
+                {placeInfo.amenities.map(amenity => (
+                  <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">{amenity}</span>
+                ))}
+              </div>
+            </div>
+            
+            <div class="mt-4">
+              <h4 class="font-medium text-gray-800 mb-2">Accesibilidad:</h4>
+              <div class="flex flex-wrap gap-2">
+                {placeInfo.accessibility.map(item => (
+                  <span class="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-full">{item}</span>
+                ))}
+              </div>
+            </div>
+            
+            <div class="mt-5">
+              <button class="w-full bg-primary text-white py-2 rounded-lg font-medium">Editar información</button>
+            </div>
+          </div>
+          
+          <div class="flex justify-between items-center mb-3">
+            <h3 class="font-semibold text-gray-800">Fotos de mi lugar</h3>
+            <button class="text-primary text-sm font-medium">Ver todas</button>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-2">
+            {userPosts.map(post => (
+              <div class="aspect-square rounded-lg overflow-hidden">
+                <img src={post.image} alt={post.title} class="w-full h-full object-cover">
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div class="mb-6">
+          <div class="flex justify-between items-center mb-3">
+            <h2 class="text-lg font-semibold text-gray-800">Mis publicaciones</h2>
+            <button class="text-primary text-sm font-medium">Ver todas</button>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-2">
+            {userPosts.map(post => (
+              <div class="aspect-square rounded-lg overflow-hidden">
+                <img src={post.image} alt={post.title} class="w-full h-full object-cover">
+              </div>
+            ))}
+          </div>
+          
+          <div class="mt-6">
+            <h2 class="text-lg font-semibold text-gray-800 mb-3">Lugares guardados</h2>
+            <div class="grid grid-cols-2 gap-3">
+              {userPosts.slice(0, 2).map(post => (
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                  <img src={post.image} alt={post.title} class="w-full h-24 object-cover">
+                  <div class="p-2">
+                    <h3 class="font-medium text-primary">{post.title}</h3>
+                    <p class="text-xs text-gray-500">{post.location}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+      
+      <div class="mb-6">
+        <button class="w-full bg-primary text-white py-3 rounded-lg font-medium">
+          {userProfile.isOwner ? 'Publicar nueva foto' : 'Editar perfil'}
+        </button>
+      </div>
+      
+      <!-- Botón de cerrar sesión -->
+      <div class="mb-10">
+        <button id="profileLogoutBtn" class="w-full border border-gray-300 text-gray-700 py-3 rounded-lg font-medium flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+          </svg>
+          Cerrar sesión
+        </button>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  // Funcionalidad para cerrar sesión desde la página de perfil
+  document.getElementById('profileLogoutBtn')?.addEventListener('click', () => {
+    // Redirigir a la página de login
+    window.location.href = '/login';
+  });
+</script> 

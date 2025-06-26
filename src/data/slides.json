@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Descubre Bolivia",
+    "description": "Explora los destinos más increíbles de Bolivia y conecta con comunidades locales",
+    "image": "/src/assets/images/places/descubre-bolivia.jpg",
+    "buttonText": "Explorar destinos"
+  },
+  {
+    "title": "Comparte tus experiencias",
+    "description": "Comparte tus aventuras y ayuda a otros viajeros a descubrir lugares increíbles",
+    "image": "/src/assets/images/places/comparte-experiencias.jpg",
+    "buttonText": "Compartir ahora"
+  },
+  {
+    "title": "Conecta con locales",
+    "description": "Conoce a propietarios de lugares turísticos y vive experiencias auténticas",
+    "image": "/src/assets/images/places/conecta-locales.jpg",
+    "buttonText": "Conectar"
+  }
+] 

@@ -1,0 +1,644 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/images/places/salar-uyuni.jpg",
+    "title": "Salar de Uyuni",
+    "location": "Potosí, Bolivia",
+    "rating": 4.9,
+    "type": "image"
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/images/places/samaipata.jpg",
+    "title": "Samaipata",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.7,
+    "type": "image"
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/images/places/lago-titicaca.jpg",
+    "title": "Lago Titicaca",
+    "location": "La Paz, Bolivia",
+    "rating": 4.8,
+    "type": "video",
+    "videoUrl": "/src/assets/videos/lago-titicaca.mp4"
+  },
+  {
+    "id": 4,
+    "image": "/src/assets/images/places/tiwanaku.jpg",
+    "title": "Tiwanaku",
+    "location": "La Paz, Bolivia",
+    "rating": 4.6,
+    "type": "image"
+  },
+  {
+    "id": 5,
+    "image": "/src/assets/images/places/tiwanaku.jpg",
+    "title": "Tiwanaku",
+    "location": "La Paz, Bolivia",
+    "rating": 4.6,
+    "type": "video",
+    "videoUrl": "/src/assets/videos/tiwanaku.mp4"
+  },
+  {
+    "id": 6,
+    "image": "/src/assets/images/places/valle_de_la_luna.jpg",
+    "title": "Valle de la Luna",
+    "location": "La Paz, Bolivia",
+    "rating": 4.5,
+    "type": "image"
+  },
+  {
+    "id": 7,
+    "image": "/src/assets/images/places/copacabana.jpg",
+    "title": "Copacabana",
+    "location": "La Paz, Bolivia",
+    "rating": 4.4,
+    "type": "video",
+    "videoUrl": "/src/assets/videos/copacabana.mp4"
+  },
+  {
+    "id": 8,
+    "image": "/src/assets/images/places/mirador_killi_killi.jpg",
+    "title": "Mirador Killi Killi",
+    "location": "La Paz, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 9,
+    "image": "/src/assets/images/places/teleferico_la_paz.jpg",
+    "title": "Teleférico La Paz",
+    "location": "La Paz, Bolivia",
+    "rating": 4.8
+  },
+  {
+    "id": 10,
+    "image": "/src/assets/images/places/iglesia_san_francisco.jpg",
+    "title": "Iglesia de San Francisco",
+    "location": "La Paz, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "image": "/src/assets/images/places/calle_jaen.jpg",
+    "title": "Calle Jaén",
+    "location": "La Paz, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "image": "/src/assets/images/places/museo_de_la_coca.jpg",
+    "title": "Museo de la Coca",
+    "location": "La Paz, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "image": "/src/assets/images/places/plaza_murillo.jpg",
+    "title": "Plaza Murillo",
+    "location": "La Paz, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 14,
+    "image": "/src/assets/images/places/mercado_brujas.jpg",
+    "title": "Mercado de las Brujas",
+    "location": "La Paz, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 15,
+    "image": "/src/assets/images/places/cristo_concordia.jpg",
+    "title": "Cristo de la Concordia",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.8
+  },
+  {
+    "id": 16,
+    "image": "/src/assets/images/places/laguna_alalay.jpg",
+    "title": "Laguna Alalay",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 17,
+    "image": "/src/assets/images/places/palacio_portales.jpg",
+    "title": "Palacio Portales",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "image": "/src/assets/images/places/santa_teresa.jpg",
+    "title": "Convento de Santa Teresa",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 19,
+    "image": "/src/assets/images/places/museo_natural_cbba.jpg",
+    "title": "Museo de Historia Natural",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.2
+  },
+  {
+    "id": 20,
+    "image": "/src/assets/images/places/la_cancha.jpg",
+    "title": "La Cancha",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.1
+  },
+  {
+    "id": 21,
+    "image": "/src/assets/images/places/parque_familia.jpg",
+    "title": "Parque de la Familia",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 22,
+    "image": "/src/assets/images/places/pairumani.jpg",
+    "title": "El Pairumani",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 23,
+    "image": "/src/assets/images/places/tunari.jpg",
+    "title": "Tunari",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 24,
+    "image": "/src/assets/images/places/villa_albina.jpg",
+    "title": "Villa Albina",
+    "location": "Cochabamba, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 25,
+    "image": "/src/assets/images/places/biocentro_guembe.jpg",
+    "title": "Biocentro Güembé",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 26,
+    "image": "/src/assets/images/places/plaza_24_septiembre.jpg",
+    "title": "Plaza 24 de Septiembre",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 27,
+    "image": "/src/assets/images/places/zoologico_scz.jpg",
+    "title": "Zoológico Municipal",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 28,
+    "image": "/src/assets/images/places/jardin_botanico_scz.jpg",
+    "title": "Jardín Botánico",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 29,
+    "image": "/src/assets/images/places/la_rinconada.jpg",
+    "title": "La Rinconada",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 30,
+    "image": "/src/assets/images/places/parque_urbano.jpg",
+    "title": "Parque Urbano",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.2
+  },
+  {
+    "id": 31,
+    "image": "/src/assets/images/places/ventura_mall.jpg",
+    "title": "Ventura Mall",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 32,
+    "image": "/src/assets/images/places/museo_historia_scz.jpg",
+    "title": "Museo de Historia Natural",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 33,
+    "image": "/src/assets/images/places/iglesia_san_lorenzo.jpg",
+    "title": "Iglesia San Lorenzo",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 34,
+    "image": "/src/assets/images/places/arenal_scz.jpg",
+    "title": "El Arenal",
+    "location": "Santa Cruz, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 35,
+    "image": "/src/assets/images/places/cerro_rico.jpg",
+    "title": "Cerro Rico",
+    "location": "Potosí, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 36,
+    "image": "/src/assets/images/places/casa_de_la_moneda.jpg",
+    "title": "Casa de la Moneda",
+    "location": "Potosí, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 37,
+    "image": "/src/assets/images/places/laguna_colorada.jpg",
+    "title": "Laguna Colorada",
+    "location": "Potosí, Bolivia",
+    "rating": 4.8
+  },
+  {
+    "id": 38,
+    "image": "/src/assets/images/places/laguna_verde.jpg",
+    "title": "Laguna Verde",
+    "location": "Potosí, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 39,
+    "image": "/src/assets/images/places/museo_santa_teresa.jpg",
+    "title": "Museo Santa Teresa",
+    "location": "Potosí, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 40,
+    "image": "/src/assets/images/places/iglesia_san_lorenzo.jpg",
+    "title": "Iglesia San Lorenzo",
+    "location": "Potosí, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 41,
+    "image": "/src/assets/images/places/mina_pailaviri.jpg",
+    "title": "Mina Pailaviri",
+    "location": "Potosí, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 42,
+    "image": "/src/assets/images/places/plaza_10_de_noviembre.jpg",
+    "title": "Plaza 10 de Noviembre",
+    "location": "Potosí, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 43,
+    "image": "/src/assets/images/places/convento_san_francisco.jpg",
+    "title": "Convento San Francisco",
+    "location": "Potosí, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 44,
+    "image": "/src/assets/images/places/mirador_torre_de_la_compania.jpg",
+    "title": "Mirador Torre de la Compañía",
+    "location": "Potosí, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 45,
+    "image": "/src/assets/images/places/santuario_del_socavon.jpg",
+    "title": "Santuario del Socavón",
+    "location": "Oruro, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 46,
+    "image": "/src/assets/images/places/museo_minero.jpg",
+    "title": "Museo Minero",
+    "location": "Oruro, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 47,
+    "image": "/src/assets/images/places/carnaval_de_oruro.jpg",
+    "title": "Carnaval de Oruro",
+    "location": "Oruro, Bolivia",
+    "rating": 4.9
+  },
+  {
+    "id": 48,
+    "image": "/src/assets/images/places/iglesia_san_miguel.jpg",
+    "title": "Iglesia San Miguel",
+    "location": "Oruro, Bolivia",
+    "rating": 4.2
+  },
+  {
+    "id": 49,
+    "image": "/src/assets/images/places/plaza_10_de_febrero.jpg",
+    "title": "Plaza 10 de Febrero",
+    "location": "Oruro, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 50,
+    "image": "/src/assets/images/places/museo_simon_i_patino.jpg",
+    "title": "Museo Simón I. Patiño",
+    "location": "Oruro, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 51,
+    "image": "/src/assets/images/places/parque_zoologico_andino.jpg",
+    "title": "Parque Zoológico Andino",
+    "location": "Oruro, Bolivia",
+    "rating": 4.1
+  },
+  {
+    "id": 52,
+    "image": "/src/assets/images/places/monumento_a_la_virgen_del_socavon.jpg",
+    "title": "Monumento a la Virgen del Socavón",
+    "location": "Oruro, Bolivia",
+    "rating": 4.8
+  },
+  {
+    "id": 53,
+    "image": "/src/assets/images/places/balneario_capachos.jpg",
+    "title": "Balneario Capachos",
+    "location": "Oruro, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 54,
+    "image": "/src/assets/images/places/complejo_sajama.jpg",
+    "title": "Complejo Sajama",
+    "location": "Oruro, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 55,
+    "image": "/src/assets/images/places/casa_de_la_libertad.jpg",
+    "title": "Casa de la Libertad",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.8
+  },
+  {
+    "id": 56,
+    "image": "/src/assets/images/places/castillo_de_la_glorieta.jpg",
+    "title": "Castillo de la Glorieta",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 57,
+    "image": "/src/assets/images/places/museo_charcas.jpg",
+    "title": "Museo Charcas",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 58,
+    "image": "/src/assets/images/places/iglesia_san_felipe_neri.jpg",
+    "title": "Iglesia San Felipe Neri",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 59,
+    "image": "/src/assets/images/places/parque_cretacico.jpg",
+    "title": "Parque Cretácico",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 60,
+    "image": "/src/assets/images/places/mirador_recoleta.jpg",
+    "title": "Mirador Recoleta",
+    "location": "Chuquisaca, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 61,
+    "image": "/src/assets/images/places/mirador_de_los_suenos.jpg",
+    "title": "Mirador de los Sueños",
+    "location": "Tarija, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 62,
+    "image": "/src/assets/images/places/casa_dorada.jpg",
+    "title": "Casa Dorada",
+    "location": "Tarija, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 63,
+    "image": "/src/assets/images/places/represa_san_jacinto.jpg",
+    "title": "Represa San Jacinto",
+    "location": "Tarija, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 64,
+    "image": "/src/assets/images/places/museo_paleontologico.jpg",
+    "title": "Museo Paleontológico",
+    "location": "Tarija, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 65,
+    "image": "/src/assets/images/places/vinedos_kohlberg.jpg",
+    "title": "Viñedos Kohlberg",
+    "location": "Tarija, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 66,
+    "image": "/src/assets/images/places/iglesia_san_roque.jpg",
+    "title": "Iglesia San Roque",
+    "location": "Tarija, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 67,
+    "image": "/src/assets/images/places/plaza_luis_de_fuentes.jpg",
+    "title": "Plaza Luis de Fuentes",
+    "location": "Tarija, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 68,
+    "image": "/src/assets/images/places/cuevas_de_sama.jpg",
+    "title": "Cuevas de Sama",
+    "location": "Tarija, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 69,
+    "image": "/src/assets/images/places/rincon_de_la_victoria.jpg",
+    "title": "Rincón de la Victoria",
+    "location": "Tarija, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 70,
+    "image": "/src/assets/images/places/parque_la_loma.jpg",
+    "title": "Parque La Loma",
+    "location": "Tarija, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 71,
+    "image": "/src/assets/images/places/catedral_de_trinidad.jpg",
+    "title": "Catedral de Trinidad",
+    "location": "Beni, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 72,
+    "image": "/src/assets/images/places/plaza_principal_trinidad.jpg",
+    "title": "Plaza Principal Trinidad",
+    "location": "Beni, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 73,
+    "image": "/src/assets/images/places/museo_etnoarqueologico_kenneth_lee.jpg",
+    "title": "Museo Etnoarqueológico Kenneth Lee",
+    "location": "Beni, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 74,
+    "image": "/src/assets/images/places/laguna_suarez.jpg",
+    "title": "Laguna Suárez",
+    "location": "Beni, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 75,
+    "image": "/src/assets/images/places/reserva_del_beni.jpg",
+    "title": "Reserva del Beni",
+    "location": "Beni, Bolivia",
+    "rating": 4.7
+  },
+  {
+    "id": 76,
+    "image": "/src/assets/images/places/puerto_ballivian.jpg",
+    "title": "Puerto Ballivián",
+    "location": "Beni, Bolivia",
+    "rating": 4.2
+  },
+  {
+    "id": 77,
+    "image": "/src/assets/images/places/parque_cipriano_barace.jpg",
+    "title": "Parque Cipriano Barace",
+    "location": "Beni, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 78,
+    "image": "/src/assets/images/places/balneario_el_porvenir.jpg",
+    "title": "Balneario El Porvenir",
+    "location": "Beni, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 79,
+    "image": "/src/assets/images/places/isla_del_amor.jpg",
+    "title": "Isla del Amor",
+    "location": "Beni, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 80,
+    "image": "/src/assets/images/places/museo_yacuma.jpg",
+    "title": "Museo Yacuma",
+    "location": "Beni, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 81,
+    "image": "/src/assets/images/places/plaza_principal_cobija.jpg",
+    "title": "Plaza Principal Cobija",
+    "location": "Pando, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 82,
+    "image": "/src/assets/images/places/puente_internacional.jpg",
+    "title": "Puente Internacional",
+    "location": "Pando, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 83,
+    "image": "/src/assets/images/places/museo_amazonia.jpg",
+    "title": "Museo Amazonia",
+    "location": "Pando, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 84,
+    "image": "/src/assets/images/places/parque_urbano_cobija.jpg",
+    "title": "Parque Urbano Cobija",
+    "location": "Pando, Bolivia",
+    "rating": 4.2
+  },
+  {
+    "id": 85,
+    "image": "/src/assets/images/places/mirador_cobija.jpg",
+    "title": "Mirador Cobija",
+    "location": "Pando, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 86,
+    "image": "/src/assets/images/places/mercado_central.jpg",
+    "title": "Mercado Central",
+    "location": "Pando, Bolivia",
+    "rating": 4.3
+  },
+  {
+    "id": 87,
+    "image": "/src/assets/images/places/rio_acre.jpg",
+    "title": "Río Acre",
+    "location": "Pando, Bolivia",
+    "rating": 4.5
+  },
+  {
+    "id": 88,
+    "image": "/src/assets/images/places/centro_cultural_cobija.jpg",
+    "title": "Centro Cultural Cobija",
+    "location": "Pando, Bolivia",
+    "rating": 4.4
+  },
+  {
+    "id": 89,
+    "image": "/src/assets/images/places/reserva_manuripi.jpg",
+    "title": "Reserva Manuripi",
+    "location": "Pando, Bolivia",
+    "rating": 4.6
+  },
+  {
+    "id": 90,
+    "image": "/src/assets/images/places/ecoaventura_pando.jpg",
+    "title": "Ecoaventura Pando",
+    "location": "Pando, Bolivia",
+    "rating": 4.5,
+    "type": "image"
+  }
+
+] 

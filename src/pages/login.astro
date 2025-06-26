@@ -1,0 +1,108 @@
+---
+import '../styles/global.css';
+import LoginForm from '../components/auth/LoginForm.astro';
+import RegisterForm from '../components/auth/RegisterForm.astro';
+import Toast from '../components/auth/Toast.astro';
+
+
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Tour Click - A un click de tu próxima aventura" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Tour Click - Iniciar sesión</title>
+  </head>
+  <body class="min-h-screen flex flex-col bg-gradient-to-b from-amber-50 to-orange-50">
+
+    
+    <!-- Componente Toast para mostrar mensajes -->
+    <Toast />
+    
+    <main class="flex flex-col items-center justify-center min-h-screen px-4 py-8">
+      <div class="w-full max-w-md">
+        <div class="text-center mb-8 fade-in">
+          <div class="flex justify-center mb-4">
+            <img src="/src/assets/images/logo/tour.jpg" alt="Tour Click Logo" class="h-32 rounded-lg shadow-md" />
+          </div>
+          <h1 class="text-3xl font-bold text-primary mb-2">Tour Click</h1>
+          <p class="text-gray-600">¡A un clic de tu próxima aventura!</p>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6 border border-amber-100 fade-in" style="animation-delay: 0.2s;">
+          <div class="flex border-b border-amber-200">
+            <button id="login-tab" class="flex-1 py-3 font-medium text-primary border-b-2 border-primary transition-all">Iniciar sesión</button>
+            <button id="register-tab" class="flex-1 py-3 font-medium text-gray-500 transition-all hover:text-primary">Registrarse</button>
+          </div>
+          
+          <div id="login-form" class="block">
+            <LoginForm />
+          </div>
+          
+          <div id="register-form" class="hidden">
+            <RegisterForm />
+          </div>
+        </div>
+        
+        <div class="text-center fade-in" style="animation-delay: 0.4s;">
+          <p class="text-gray-600 mb-4">O inicia sesión con</p>
+          <div class="flex justify-center space-x-4">
+            <button class="flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors shadow-sm">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="#4285F4" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.8055 10.0415H21V10H12V14H17.6515C16.827 16.3285 14.6115 18 12 18C8.6865 18 6 15.3135 6 12C6 8.6865 8.6865 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C6.4775 2 2 6.4775 2 12C2 17.5225 6.4775 22 12 22C17.5225 22 22 17.5225 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"/>
+              </svg>
+            </button>
+            <button class="flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors shadow-sm">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 12.073C24 5.40541 18.6274 0 12 0C5.37262 0 0 5.40541 0 12.073C0 18.0988 4.38825 23.0935 10.125 24V15.563H7.07812V12.073H10.125V9.41306C10.125 6.38751 11.9166 4.72 14.6576 4.72C15.9701 4.72 17.3438 4.95601 17.3438 4.95601V7.92188H15.8306C14.34 7.92188 13.875 8.85225 13.875 9.80488V12.073H17.2031L16.6711 15.563H13.875V24C19.6117 23.0935 24 18.0988 24 12.073Z"/>
+              </svg>
+            </button>
+            <button class="flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors shadow-sm">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Simulación de cambio entre inicio de sesión y registro
+    const loginTab = document.getElementById('login-tab');
+    const registerTab = document.getElementById('register-tab');
+    const loginForm = document.getElementById('login-form');
+    const registerForm = document.getElementById('register-form');
+    
+    loginTab?.addEventListener('click', () => {
+      loginTab.classList.add('border-primary', 'text-primary');
+      loginTab.classList.remove('border-transparent', 'text-gray-500');
+      registerTab?.classList.add('text-gray-500');
+      registerTab?.classList.remove('border-primary', 'text-primary');
+      
+      loginForm?.classList.remove('hidden');
+      loginForm?.classList.add('block');
+      registerForm?.classList.remove('block');
+      registerForm?.classList.add('hidden');
+    });
+    
+    registerTab?.addEventListener('click', () => {
+      registerTab.classList.add('border-primary', 'text-primary');
+      registerTab.classList.remove('text-gray-500');
+      loginTab?.classList.add('text-gray-500');
+      loginTab?.classList.remove('border-primary', 'text-primary');
+      
+      registerForm?.classList.remove('hidden');
+      registerForm?.classList.add('block');
+      loginForm?.classList.remove('block');
+      loginForm?.classList.add('hidden');
+    });
+  });
+</script> 

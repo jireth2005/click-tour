@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Carousel from '../components/Carousel.astro';
+import MapPreview from '../components/MapPreview.astro';
+import ImagePostCard from '../components/feed/ImagePostCard.astro';
+import VideoPostCard from '../components/feed/VideoPostCard.astro';
+import ImageDestinationCard from '../components/explore/ImageDestinationCard.astro';
+import VideoDestinationCard from '../components/explore/VideoDestinationCard.astro';
+import { slides, destinations, posts } from '../data';
+
+// Utilizamos los datos importados para slides, posts y popularDestinations
+const popularDestinations = destinations;
+---
+
+<Layout title="Tour Click - Inicio">
+  <main class="pb-20">
+    <!-- Carrusel de bienvenida -->
+    <Carousel slides={slides} />
+    
+    <!-- Sección de destinos populares -->
+    <section class="px-4 mt-6 mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-gray-900">Destinos populares</h2>
+        <a href="/explorar" class="text-primary text-sm font-medium">Ver todos</a>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-4">
+        {popularDestinations.map(destination => (
+          destination.type === 'video' ? 
+            <VideoDestinationCard destination={destination} /> : 
+            <ImageDestinationCard destination={destination} />
+        ))}
+      </div>
+    </section>
+    
+    <!-- Vista previa del mapa -->
+    <section class="px-4 mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-gray-900">Explora el mapa</h2>
+        <a href="/mapa" class="text-primary text-sm font-medium">Ver mapa completo</a>
+      </div>
+      
+      <MapPreview />
+    </section>
+    
+    <!-- Feed de publicaciones -->
+    <section class="px-4">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Publicaciones recientes</h2>
+      
+      <div class="space-y-6">
+        {posts.map(post => (
+          post.type === 'video' ? 
+            <VideoPostCard 
+              author={post.user.name}
+              authorImage={post.user.avatar}
+              title={post.place.name}
+              location={post.place.name}
+              image={post.images[0]}
+              description={post.content}
+              likes={post.likes}
+              comments={post.comments}
+              date={new Date(post.date).toLocaleDateString()}
+              videoUrl={post.videoUrl}
+            /> : 
+            <ImagePostCard 
+              author={post.user.name}
+              authorImage={post.user.avatar}
+              title={post.place.name}
+              location={post.place.name}
+              image={post.images[0]}
+              description={post.content}
+              likes={post.likes}
+              comments={post.comments}
+              date={new Date(post.date).toLocaleDateString()}
+            />
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  /* Estilos adicionales específicos de la página de inicio */
+  main {
+    padding-top: 0;
+  }
+</style>

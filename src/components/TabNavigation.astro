@@ -1,0 +1,173 @@
+---
+interface Tab {
+  id: string;
+  label: string;
+  icon: string;
+  active?: boolean;
+}
+
+interface Props {
+  tabs: Tab[];
+}
+
+const { tabs } = Astro.props;
+---
+
+<div class="tab-navigation bg-white shadow-sm mb-4">
+  <div class="tab-container">
+    <div class="tab-scroller">
+      {tabs.map(tab => (
+        <a 
+          href={`/${tab.id === 'home' ? '' : tab.id}`} 
+          class={`tab-item ${tab.active ? 'active' : ''}`}
+          data-tab={tab.id}
+        >
+          <div class="tab-content">
+            <div class="icon" set:html={tab.icon}></div>
+            <span class="label">{tab.label}</span>
+          </div>
+          {tab.active && <div class="tab-indicator"></div>}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .tab-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .tab-container {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .tab-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .tab-scroller {
+    display: flex;
+    width: 100%;
+    padding: 0 4px;
+  }
+  
+  .tab-item {
+    flex: 1;
+    min-width: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .tab-item.active {
+    color: #2A5D3C;
+  }
+  
+  .tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin-bottom: 4px;
+  }
+  
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .label {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .tab-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 70%;
+    height: 3px;
+    background-color: #2A5D3C;
+    border-radius: 3px 3px 0 0;
+  }
+</style>
+
+<script>
+  // Añadir funcionalidad de deslizamiento para la navegación entre pestañas
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabContainer = document.querySelector('.tab-container') as HTMLElement;
+    const tabItems = document.querySelectorAll('.tab-item');
+    
+    if (!tabContainer) return;
+    
+    // Centrar la pestaña activa
+    const activeTab = document.querySelector('.tab-item.active') as HTMLElement;
+    if (activeTab) {
+      setTimeout(() => {
+        const containerWidth = tabContainer.offsetWidth;
+        const activeTabLeft = activeTab.offsetLeft;
+        const activeTabWidth = activeTab.offsetWidth;
+        const scrollPosition = activeTabLeft - (containerWidth / 2) + (activeTabWidth / 2);
+        
+        tabContainer.scrollTo({
+          left: scrollPosition,
+          behavior: 'smooth'
+        });
+      }, 100);
+    }
+    
+    // Detectar deslizamiento horizontal para cambiar entre páginas
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    document.addEventListener('touchstart', (e: TouchEvent) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    
+    document.addEventListener('touchend', (e: TouchEvent) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+    
+    const handleSwipe = () => {
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) < 100) return; // Umbral mínimo para considerar un deslizamiento
+      
+      const activeTabIndex = Array.from(tabItems).findIndex(tab => tab.classList.contains('active'));
+      if (activeTabIndex === -1) return;
+      
+      let nextTabIndex;
+      if (diff > 0) {
+        // Deslizamiento hacia la izquierda (siguiente pestaña)
+        nextTabIndex = Math.min(activeTabIndex + 1, tabItems.length - 1);
+      } else {
+        // Deslizamiento hacia la derecha (pestaña anterior)
+        nextTabIndex = Math.max(activeTabIndex - 1, 0);
+      }
+      
+      if (nextTabIndex !== activeTabIndex) {
+        const nextTab = tabItems[nextTabIndex];
+        if (nextTab) {
+          window.location.href = nextTab.getAttribute('href') || '/';
+        }
+      }
+    };
+  });
+</script> 

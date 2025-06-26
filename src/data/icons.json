@@ -1,0 +1,16 @@
+{
+     
+  "hotel": {
+    "url": "https://cdn-icons-png.flaticon.com/128/7578/7578479.png" ,
+    "size": [32, 32]
+  },
+    "restaurant": {
+    "url": "https://cdn-icons-png.flaticon.com/512/685/685352.png",
+    "size": [32, 32]
+  },
+  "attraction": {
+    "url": "https://cdn-icons-png.flaticon.com/512/3175/3175239.png",
+    "size": [32, 32]
+  }
+ }
+ 

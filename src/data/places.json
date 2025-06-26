@@ -1,0 +1,2752 @@
+[
+  {
+    "id": 1,
+    "name": "Salar de Uyuni",
+    "type": "attraction",
+    "lat": -20.1338,
+    "lng": -67.4891,
+    "description": "El mayor desierto de sal del mundo",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/salar-de-uyuni.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samaipata",
+    "type": "attraction",
+    "lat": -18.1786,
+    "lng": -63.8780,
+    "description": "Sitio arqueológico precolombino",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/samaipata.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hotel Los Flamencos",
+    "type": "hotel",
+    "lat": -20.2338,
+    "lng": -67.5891,
+    "description": "Hotel con vista al salar",
+    "rating": 4.5,
+    "image": "/src/assets/images/hotels/hotel-los-flamencos.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Restaurante Altiplano",
+    "type": "restaurant",
+    "lat": -20.1438,
+    "lng": -67.4791,
+    "description": "Comida típica boliviana",
+    "rating": 4.3,
+    "image": "/src/assets/images/restaurants/restaurante-altiplano.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lago Titicaca",
+    "type": "attraction",
+    "lat": -16.1667,
+    "lng": -69.1333,
+    "description": "El lago navegable más alto del mundo",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/lago-titicaca.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Casa del camba",
+    "type": "restaurant",
+    "lat": -17.793150,
+    "lng": -63.182100,
+    "description": "La casa del camba es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/casadelcamba.jpg"
+  },
+  {
+    "id": 7,
+    "name": "El Aljibe Comida Típica",
+    "type": "restaurant",
+    "lat": -17.791050,
+    "lng": -63.183700,
+    "description": "El Aljibe Comida Típica es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/elajibe.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sach'a Huaska",
+    "type": "restaurant",
+    "lat": -17.789500,
+    "lng": -63.197000,
+    "description": "Sach'a Huaska es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/sachahuaska.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fogón de Gringo",
+    "type": "restaurant",
+    "lat": -17.785500,
+    "lng": -63.189500,
+    "description": "Fogón de Gringo es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/fogon.jpg"
+  },
+  {
+    "id": 10,
+    "name": "KAO by Sach’a",
+    "type": "restaurant",
+    "lat": -17.791500,
+    "lng": -63.196700,
+    "description": "Kao by Sach’a es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/kao.jpg"
+  },
+  {
+    "id": 11,
+    "name": "El Arriero",
+    "type": "restaurant",
+    "lat": -17.790500,
+    "lng": -63.197200,
+    "description": "El Arriero es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/arriero.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Botanica Restaurant",
+    "type": "restaurant",
+    "lat": -17.789800,
+    "lng": -63.195200,
+    "description": "Botanica Restaurant es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/botanica.jpg"
+  },
+  {
+    "id": 13,
+    "name": "El Cuartito",
+    "type": "restaurant",
+    "lat": -17.787400,
+    "lng": -63.182500,
+    "description": "El Cuartito es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/cuartito.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Restaurant Habito",
+    "type": "restaurant",
+    "lat": -17.760000,
+    "lng": -63.182500,
+    "description": "Restaurant Habito es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/habito.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Restaurant Aviator",
+    "type": "restaurant",
+    "lat": -17.760500,
+    "lng": -63.183000,
+    "description": "Restaurant Aviator es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/aviator.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Restaurant Tinto",
+    "type": "restaurant",
+    "lat": -17.785000,
+    "lng": -63.190000,
+    "description": "Restaurant Tinto es un restaurante de comida boliviana que se encuentra en la ciudad de La Paz, Bolivia. Es conocido por su auténtica cocina boliviana, que combina ingredientes locales con técnicas culinarias tradicionales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/tinto.jpg"
+  },
+  {
+    "id": 15,
+    "name": "4060",
+    "type": "restaurant",
+    "lat": -19.586,
+    "lng": -65.752,
+    "description": "Restaurante 4060 es uno de los más destacados en Potosí, Bolivia, famoso por su cocina local y ambiente acogedor.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 16,
+    "name": "La Casona Potosí",
+    "type": "restaurant",
+    "lat": -19.587,
+    "lng": -65.7535,
+    "description": "La Casona Potosí ofrece platos típicos en un entorno colonial en el centro de Potosí.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 17,
+    "name": "El Portal de la Casa Real",
+    "type": "restaurant",
+    "lat": -19.5865,
+    "lng": -65.754,
+    "description": "Un restaurante elegante que combina cocina gourmet con la historia de Potosí.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Restaurante Tunupa",
+    "type": "restaurant",
+    "lat": -19.5855,
+    "lng": -65.7525,
+    "description": "Tunupa ofrece especialidades andinas con ingredientes frescos y locales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Restaurant Piedra del Inca",
+    "type": "restaurant",
+    "lat": -19.5862,
+    "lng": -65.7532,
+    "description": "Con un estilo rústico, Piedra del Inca ofrece cocina boliviana auténtica.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 20,
+    "name": "La Estancia Potosí",
+    "type": "restaurant",
+    "lat": -19.5875,
+    "lng": -65.7515,
+    "description": "La Estancia es conocida por su carne a la parrilla y excelente servicio.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 21,
+    "name": "La Cuchara de la Abuela",
+    "type": "restaurant",
+    "lat": -19.5845,
+    "lng": -65.7537,
+    "description": "Ofrece platos tradicionales potosinos en un ambiente hogareño.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 22,
+    "name": "El Fogón del Minero",
+    "type": "restaurant",
+    "lat": -19.5868,
+    "lng": -65.7552,
+    "description": "Popular por sus carnes y decoración inspirada en la minería.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Café la Plata",
+    "type": "restaurant",
+    "lat": -19.5872,
+    "lng": -65.7548,
+    "description": "Un café acogedor que también sirve platos ligeros y postres.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Valle de las Ánimas Restaurant",
+    "type": "restaurant",
+    "lat": -19.5858,
+    "lng": -65.7528,
+    "description": "Ubicado cerca de sitios turísticos, ideal para descansar y comer bien.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 25,
+    "name": "El Fogón de Cayara",
+    "type": "restaurant",
+    "lat": -19.045,
+    "lng": -65.2595,
+    "description": "Restaurante típico con una selección de platos tradicionales de Chuquisaca.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Taverna Restaurant",
+    "type": "restaurant",
+    "lat": -19.0452,
+    "lng": -65.2597,
+    "description": "Taverna ofrece un ambiente elegante y platillos internacionales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Restaurant Los Jurados",
+    "type": "restaurant",
+    "lat": -19.046,
+    "lng": -65.26,
+    "description": "Conocido por su comida criolla y atención cálida.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Picantería Bolivia",
+    "type": "restaurant",
+    "lat": -19.0455,
+    "lng": -65.2592,
+    "description": "Especialista en picantes y cocina popular sucrense.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 29,
+    "name": "La Taverna de Sucre",
+    "type": "restaurant",
+    "lat": -19.0448,
+    "lng": -65.2599,
+    "description": "Ubicado en el centro, ofrece vinos y tapas bolivianas.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 30,
+    "name": "McKenna’s Irish Pub",
+    "type": "restaurant",
+    "lat": -19.0453,
+    "lng": -65.2601,
+    "description": "Pub con variedad de cervezas y comida internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 31,
+    "name": "La Valeriana",
+    "type": "restaurant",
+    "lat": -19.0457,
+    "lng": -65.2603,
+    "description": "Cafetería y restaurante con ambiente tranquilo.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Coffee House Sucre",
+    "type": "restaurant",
+    "lat": -19.0451,
+    "lng": -65.2598,
+    "description": "Popular entre locales por su café y pastelería.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Chez Giorgio",
+    "type": "restaurant",
+    "lat": -19.0462,
+    "lng": -65.2605,
+    "description": "Cocina italiana de autor en el corazón de Sucre.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 34,
+    "name": "La Puerta Restaurante",
+    "type": "restaurant",
+    "lat": -19.0465,
+    "lng": -65.2607,
+    "description": "Comida gourmet en un entorno artístico y elegante.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 35,
+    "name": "La Casona del Molino",
+    "type": "restaurant",
+    "lat": -21.5215,
+    "lng": -64.7286,
+    "description": "Famoso por su parrilla y platos regionales en Tarija.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 36,
+    "name": "El Fogón de los Arrieros",
+    "type": "restaurant",
+    "lat": -21.522,
+    "lng": -64.729,
+    "description": "Restaurante tradicional con especialidades en carne.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 37,
+    "name": "La Taberna Española",
+    "type": "restaurant",
+    "lat": -21.5205,
+    "lng": -64.7282,
+    "description": "Tapas y platos españoles en un ambiente familiar.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Doña Elena Restaurante",
+    "type": "restaurant",
+    "lat": -21.5227,
+    "lng": -64.7292,
+    "description": "Conocido por su atención y platos caseros.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 39,
+    "name": "El Marques",
+    "type": "restaurant",
+    "lat": -21.5212,
+    "lng": -64.7284,
+    "description": "Ideal para cenas románticas y reuniones.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Belen Coffee-Restaurant",
+    "type": "restaurant",
+    "lat": -21.5213,
+    "lng": -64.7279,
+    "description": "Combina café de altura con platillos gourmet.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Cafe Mokka",
+    "type": "restaurant",
+    "lat": -21.5214,
+    "lng": -64.7281,
+    "description": "Moderna cafetería con opciones veganas.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Mercado Campesino Food Court",
+    "type": "restaurant",
+    "lat": -21.5222,
+    "lng": -64.7288,
+    "description": "Variedad de comida local en un solo lugar.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Casa Dorada Café",
+    "type": "restaurant",
+    "lat": -21.5223,
+    "lng": -64.7293,
+    "description": "Un lugar acogedor con historia y buen café.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Restaurante en Bodega Kohlberg",
+    "type": "restaurant",
+    "lat": -21.529,
+    "lng": -64.735,
+    "description": "Cocina gourmet en medio de viñedos bolivianos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 45,
+    "name": "El Fogón Amazónico",
+    "type": "restaurant",
+    "lat": -14.8305,
+    "lng": -64.9085,
+    "description": "Cocina típica amazónica con sabores intensos y carnes regionales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Amazonia Grill",
+    "type": "restaurant",
+    "lat": -14.831,
+    "lng": -64.9095,
+    "description": "Restaurante de parrilla moderna con ingredientes del Beni.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Restaurante El Puma",
+    "type": "restaurant",
+    "lat": -14.832,
+    "lng": -64.9105,
+    "description": "Conocido por su atención y variedad de platos regionales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 48,
+    "name": "La Esquina Beni",
+    "type": "restaurant",
+    "lat": -14.833,
+    "lng": -64.911,
+    "description": "Cafetería y restaurante familiar con menú variado.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Café Río Madre de Dios",
+    "type": "restaurant",
+    "lat": -14.83,
+    "lng": -64.912,
+    "description": "Perfecto para disfrutar de un café junto al río.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Mercado Central Trinidad",
+    "type": "restaurant",
+    "lat": -14.8345,
+    "lng": -64.9065,
+    "description": "Puestos de comida tradicional con precios accesibles.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 51,
+    "name": "La Casona Restaurant",
+    "type": "restaurant",
+    "lat": -14.8325,
+    "lng": -64.9075,
+    "description": "Ambiente clásico con platos benianos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 52,
+    "name": "El Rinconcito Beni",
+    "type": "restaurant",
+    "lat": -14.8315,
+    "lng": -64.9088,
+    "description": "Pequeño restaurante con toque casero.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Pizzería Italia Trinidad",
+    "type": "restaurant",
+    "lat": -14.8308,
+    "lng": -64.9092,
+    "description": "Pizzas artesanales al estilo local.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Grill & Co. Beni",
+    "type": "restaurant",
+    "lat": -14.8295,
+    "lng": -64.9068,
+    "description": "Especialistas en parrillas con estilo moderno.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Restaurante Río Acre",
+    "type": "restaurant",
+    "lat": -10.1665,
+    "lng": -68.7488,
+    "description": "Restaurante tradicional de Cobija con platos regionales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 56,
+    "name": "El Puente Cobija Grill",
+    "type": "restaurant",
+    "lat": -10.167,
+    "lng": -68.75,
+    "description": "Grill con opciones de pescado y carnes.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 57,
+    "name": "La Casa del Pando",
+    "type": "restaurant",
+    "lat": -10.168,
+    "lng": -68.749,
+    "description": "Ambiente familiar con platos amazónicos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Amazonas Food Court",
+    "type": "restaurant",
+    "lat": -10.1675,
+    "lng": -68.7495,
+    "description": "Patio de comidas con variedad local.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Café Matíz Cobija",
+    "type": "restaurant",
+    "lat": -10.1685,
+    "lng": -68.7485,
+    "description": "Café moderno ideal para desayunos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 60,
+    "name": "El Portal Cobija",
+    "type": "restaurant",
+    "lat": -10.169,
+    "lng": -68.7502,
+    "description": "Menú mixto en ambiente contemporáneo.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 61,
+    "name": "La Orquídea Restaurante",
+    "type": "restaurant",
+    "lat": -10.17,
+    "lng": -68.7492,
+    "description": "Restaurante elegante con cocina internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Cevichería El Pacífico",
+    "type": "restaurant",
+    "lat": -10.1695,
+    "lng": -68.7488,
+    "description": "Especialistas en ceviches y mariscos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Sabor Pando",
+    "type": "restaurant",
+    "lat": -10.1682,
+    "lng": -68.7499,
+    "description": "Sabores típicos del norte boliviano.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Pizzería El Río Cobija",
+    "type": "restaurant",
+    "lat": -10.1668,
+    "lng": -68.7506,
+    "description": "Pizzas rústicas a la leña.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Casa Charo",
+    "type": "restaurant",
+    "lat": -18.1762,
+    "lng": -63.4457,
+    "description": "Gastronomía de autor en Samaipata.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Vinos 1750",
+    "type": "restaurant",
+    "lat": -18.1765,
+    "lng": -63.4459,
+    "description": "Restaurante y bodega con maridajes únicos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Landsuá Natural Wines",
+    "type": "restaurant",
+    "lat": -18.177,
+    "lng": -63.4462,
+    "description": "Vinoteca y cocina de fusión natural.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 68,
+    "name": "La Chakana",
+    "type": "restaurant",
+    "lat": -18.1748,
+    "lng": -63.4461,
+    "description": "Comida consciente con ingredientes andinos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 69,
+    "name": "La Vaca Loca",
+    "type": "restaurant",
+    "lat": -18.1749,
+    "lng": -63.4462,
+    "description": "Especialidad en carnes a la parrilla.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 70,
+    "name": "La Boheme Pub Restaurant",
+    "type": "restaurant",
+    "lat": -18.1752,
+    "lng": -63.4465,
+    "description": "Pub artístico con comida internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Latina Café",
+    "type": "restaurant",
+    "lat": -18.1753,
+    "lng": -63.4463,
+    "description": "Café y snacks típicos de la zona.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Café Jardín – La Vispera",
+    "type": "restaurant",
+    "lat": -18.1754,
+    "lng": -63.4464,
+    "description": "Desayunos y almuerzos ecológicos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 73,
+    "name": "La Rinconada Ecopark Restaurant",
+    "type": "restaurant",
+    "lat": -17.735,
+    "lng": -63.175,
+    "description": "Restaurante en parque natural, ideal para familias.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Botánica del Bosque",
+    "type": "restaurant",
+    "lat": -17.7352,
+    "lng": -63.1755,
+    "description": "Cocina saludable en un entorno verde.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Gustu",
+    "type": "restaurant",
+    "lat": -16.5269,
+    "lng": -68.1121,
+    "description": "Restaurante reconocido mundialmente por su enfoque boliviano de alta cocina.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Ali Pacha",
+    "type": "restaurant",
+    "lat": -16.5005,
+    "lng": -68.1296,
+    "description": "Cocina vegana de autor con productos andinos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Popular Cocina Boliviana",
+    "type": "restaurant",
+    "lat": -16.4999,
+    "lng": -68.13,
+    "description": "Menú fijo con sabores tradicionales reinterpretados.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Namas Té",
+    "type": "restaurant",
+    "lat": -16.4981,
+    "lng": -68.1322,
+    "description": "Fusión de cocina saludable e internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Typica Café",
+    "type": "restaurant",
+    "lat": -16.5283,
+    "lng": -68.1103,
+    "description": "Café gourmet y brunch.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Luciernagas Restaurant",
+    "type": "restaurant",
+    "lat": -16.5078,
+    "lng": -68.1183,
+    "description": "Platos tradicionales en un espacio íntimo.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Tambo Colonial",
+    "type": "restaurant",
+    "lat": -16.499,
+    "lng": -68.1325,
+    "description": "Gastronomía paceña y postres caseros.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 82,
+    "name": "La Comedie",
+    "type": "restaurant",
+    "lat": -16.5011,
+    "lng": -68.1328,
+    "description": "Restaurante franco-boliviano.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Sabor a Ti",
+    "type": "restaurant",
+    "lat": -16.5281,
+    "lng": -68.1115,
+    "description": "Parrilla familiar con variedad.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Goût Français",
+    "type": "restaurant",
+    "lat": -16.5254,
+    "lng": -68.1124,
+    "description": "Panadería y bistró francés en La Paz.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Casa de Campo",
+    "type": "restaurant",
+    "lat": -17.4031,
+    "lng": -66.1586,
+    "description": "Tradición valluna en un entorno campestre.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 86,
+    "name": "La Cantonata",
+    "type": "restaurant",
+    "lat": -17.3908,
+    "lng": -66.1564,
+    "description": "Cocina italiana en la zona norte.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 87,
+    "name": "La Estancia Cochabamba",
+    "type": "restaurant",
+    "lat": -17.3901,
+    "lng": -66.1592,
+    "description": "Parrillada con cortes bolivianos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Paprika",
+    "type": "restaurant",
+    "lat": -17.3896,
+    "lng": -66.1571,
+    "description": "Restaurante de autor con fusión internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Sole Mio",
+    "type": "restaurant",
+    "lat": -17.3923,
+    "lng": -66.155,
+    "description": "Auténtica pizza y pasta italiana.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 90,
+    "name": "La Muela del Diablo",
+    "type": "restaurant",
+    "lat": -17.3935,
+    "lng": -66.1599,
+    "description": "Cocina gourmet en un ambiente roquero.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 91,
+    "name": "La Suisse",
+    "type": "restaurant",
+    "lat": -17.3903,
+    "lng": -66.1567,
+    "description": "Comida europea clásica.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Dumbo",
+    "type": "restaurant",
+    "lat": -17.3928,
+    "lng": -66.1585,
+    "description": "Cafetería tradicional boliviana.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Restaurante Estancia 1530",
+    "type": "restaurant",
+    "lat": -17.3899,
+    "lng": -66.1573,
+    "description": "Gastronomía local y carnes a la parrilla.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/default.jpg"
+  },
+  {
+    "id": 94,
+    "name": "ibis Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.772552,
+    "lng": -63.1907,
+    "description": "Hotel ibis en Santa Cruz, conocido por su comodidad y servicio moderno.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/ibis_santa_cruz.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Los Tajibos, a Tribute Portfolio Hotel",
+    "type": "hotel",
+    "lat": -17.764244,
+    "lng": -63.197768,
+    "description": "Hotel de lujo en Santa Cruz con amplias instalaciones y servicios de alta calidad.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/los_tajibos.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Hampton by Hilton Santa Cruz",
+    "type": "hotel",
+    "lat": -17.76091,
+    "lng": -63.19806,
+    "description": "Moderno hotel en Santa Cruz con habitaciones confortables y excelente ubicación.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/hampton_hilton.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Marriott Santa Cruz de la Sierra Hotel",
+    "type": "hotel",
+    "lat": -17.7611,
+    "lng": -63.202497,
+    "description": "Hotel Marriott con lujo y servicios de primera en Santa Cruz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/marriott_santa_cruz.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Hotel Camino Real Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.756492,
+    "lng": -63.198821,
+    "description": "Hotel tradicional en Santa Cruz con un estilo clásico y atención personalizada.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/camino_real.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Radisson Hotel Santa Cruz",
+    "type": "hotel",
+    "lat": -17.770927,
+    "lng": -63.184146,
+    "description": "Hotel Radisson con instalaciones modernas y servicios exclusivos en Santa Cruz.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/radisson_santa_cruz.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Buganvillas Hotel Suites",
+    "type": "hotel",
+    "lat": -17.78443,
+    "lng": -63.21245,
+    "description": "Hotel boutique en Santa Cruz con suites confortables y ambiente acogedor.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/buganvillas.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Swissôtel Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.745744,
+    "lng": -63.195316,
+    "description": "Hotel Swissôtel, reconocido por su lujo y ubicación estratégica en Santa Cruz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/swissotel_santa_cruz.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Cosmopolitano Hotel Boutique",
+    "type": "hotel",
+    "lat": -17.78702,
+    "lng": -63.18192,
+    "description": "Hotel boutique con diseño moderno y servicios exclusivos en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/cosmopolitano.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Alfonsina Hotel Boutique",
+    "type": "hotel",
+    "lat": -17.76703,
+    "lng": -63.19242,
+    "description": "Hotel boutique con ambiente elegante y ubicación céntrica en Santa Cruz.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/alfonsina.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Senses Hotel Boutique Plaza",
+    "type": "hotel",
+    "lat": -17.78355,
+    "lng": -63.181591,
+    "description": "Hotel boutique moderno en el centro de Santa Cruz, con ambiente acogedor.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/senses.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Hotel Cortez Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.76245,
+    "lng": -63.1966,
+    "description": "Hotel tradicional con excelente atención y ubicación en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/cortez.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Taos Apart Hotel Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.78685,
+    "lng": -63.18122,
+    "description": "Apart hotel cómodo con servicios completos y buena ubicación.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/taos.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Chairú Eco Hotel Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.7831,
+    "lng": -63.1823,
+    "description": "Hotel ecológico con ambiente natural y sostenible en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/chairu.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Hotel LP Santa Cruz Centro",
+    "type": "hotel",
+    "lat": -17.770455,
+    "lng": -63.199632,
+    "description": "Hotel céntrico con buenas instalaciones y atención cálida.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/lp_santa_cruz.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Hotel Lido",
+    "type": "hotel",
+    "lat": -17.78521,
+    "lng": -63.18342,
+    "description": "Hotel cómodo y accesible en Santa Cruz, ideal para viajeros.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/lido.jpg"
+  },
+  {
+    "id": 110,
+    "name": "TRYP by Wyndham Santa Cruz",
+    "type": "hotel",
+    "lat": -17.76388,
+    "lng": -63.18912,
+    "description": "Hotel moderno con instalaciones de calidad en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/tryp.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Hotel Cortez",
+    "type": "hotel",
+    "lat": -17.76985,
+    "lng": -63.19635,
+    "description": "Hotel clásico en Santa Cruz con atención personalizada.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/cortez2.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Chairú Eco Hotel",
+    "type": "hotel",
+    "lat": -17.7831,
+    "lng": -63.1823,
+    "description": "Hotel ecológico que ofrece una experiencia sostenible y natural.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/chairu2.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Alfonsina Hotel Boutique",
+    "type": "hotel",
+    "lat": -17.76705,
+    "lng": -63.19249,
+    "description": "Elegante hotel boutique con diseño exclusivo en Santa Cruz.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/alfonsina2.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Swissôtel Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.745744,
+    "lng": -63.195316,
+    "description": "Hotel de lujo con servicios premium en Santa Cruz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/swissotel2.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Cosmopolitano Hotel Boutique",
+    "type": "hotel",
+    "lat": -17.78595,
+    "lng": -63.18193,
+    "description": "Hotel boutique con ambiente exclusivo y atención de primera.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/cosmopolitano2.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Torre Hotel Ejecutivo",
+    "type": "hotel",
+    "lat": -17.7862,
+    "lng": -63.184,
+    "description": "Hotel ejecutivo ideal para viajes de negocios en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/torre.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Hotel Plaza Center",
+    "type": "hotel",
+    "lat": -17.7834,
+    "lng": -63.1827,
+    "description": "Hotel céntrico con excelente ubicación y servicios completos.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/plaza_center.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Hotel Sirari by Regina",
+    "type": "hotel",
+    "lat": -17.7599,
+    "lng": -63.1962,
+    "description": "Hotel cómodo y funcional cerca de zonas comerciales en Santa Cruz.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/sirari.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Apart Hotel Toborochi",
+    "type": "hotel",
+    "lat": -17.8005,
+    "lng": -63.153,
+    "description": "Apart hotel con servicios completos y ambiente tranquilo.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/toborochi.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Hotel Continental Park",
+    "type": "hotel",
+    "lat": -17.7812,
+    "lng": -63.1833,
+    "description": "Hotel con instalaciones modernas y atención cercana en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/continental_park.jpg"
+  },
+  {
+    "id": 121,
+    "name": "La Siesta Hotel",
+    "type": "hotel",
+    "lat": -17.7883,
+    "lng": -63.1815,
+    "description": "Hotel acogedor con ambiente tranquilo y buena ubicación.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/la_siesta.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Sun Hotel",
+    "type": "hotel",
+    "lat": -17.762,
+    "lng": -63.1884,
+    "description": "Hotel moderno con servicios completos y ambiente agradable.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/sun.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Hotel G Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.76,
+    "lng": -63.188,
+    "description": "Hotel con diseño contemporáneo y atención personalizada.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/hotel_g.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Novotel Santa Cruz de la Sierra",
+    "type": "hotel",
+    "lat": -17.785596,
+    "lng": -63.213198,
+    "description": "Hotel Novotel con amplias habitaciones y servicios premium.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/novotel.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Hotel Real Santa Cruz",
+    "type": "hotel",
+    "lat": -17.770,
+    "lng": -63.200,
+    "description": "Hotel clásico con servicios completos en Santa Cruz.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/hotel_real.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Hotel Casa Blanca",
+    "type": "hotel",
+    "lat": -17.765,
+    "lng": -63.190,
+    "description": "Hotel boutique con ambiente familiar y atención cálida.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/casa_blanca.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Hotel Torre Azul",
+    "type": "hotel",
+    "lat": -17.755,
+    "lng": -63.185,
+    "description": "Hotel con buena ubicación y servicios para viajeros de negocios.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/torre_azul.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Hotel Bahía",
+    "type": "hotel",
+    "lat": -17.753,
+    "lng": -63.180,
+    "description": "Hotel cómodo y accesible en el centro de Santa Cruz.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/bahia.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Hotel Patio Andaluz",
+    "type": "hotel",
+    "lat": -17.749,
+    "lng": -63.190,
+    "description": "Hotel con encanto colonial y ambiente acogedor.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/patio_andaluz.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Hotel La Torre",
+    "type": "hotel",
+    "lat": -17.748,
+    "lng": -63.195,
+    "description": "Hotel moderno con instalaciones completas en Santa Cruz.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/la_torre.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Hotel España",
+    "type": "hotel",
+    "lat": -17.746,
+    "lng": -63.200,
+    "description": "Hotel céntrico con servicios confortables y buen precio.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/espana.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Hotel Cristal",
+    "type": "hotel",
+    "lat": -17.742,
+    "lng": -63.198,
+    "description": "Hotel sencillo y acogedor en Santa Cruz.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/cristal.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Hotel Elegancia",
+    "type": "hotel",
+    "lat": -17.740,
+    "lng": -63.195,
+    "description": "Hotel con diseño moderno y servicios exclusivos.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/elegancia.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Hotel Jardín de los Sueños",
+    "type": "hotel",
+    "lat": -17.735,
+    "lng": -63.190,
+    "description": "Hotel boutique con jardín y ambiente tranquilo.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/jardin_suenos.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Hotel Plaza Real",
+    "type": "hotel",
+    "lat": -17.730,
+    "lng": -63.185,
+    "description": "Hotel céntrico con servicios completos y atención amable.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/plaza_real.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Hotel Miraflores",
+    "type": "hotel",
+    "lat": -17.728,
+    "lng": -63.180,
+    "description": "Hotel cómodo y funcional en Santa Cruz.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/miraflores.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Hotel Nueva Granada",
+    "type": "hotel",
+    "lat": -17.725,
+    "lng": -63.175,
+    "description": "Hotel tradicional con atención personalizada.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/nueva_granada.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Hotel Libertad",
+    "type": "hotel",
+    "lat": -17.722,
+    "lng": -63.170,
+    "description": "Hotel económico con buena ubicación.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/libertad.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Hotel San Martín",
+    "type": "hotel",
+    "lat": -17.720,
+    "lng": -63.165,
+    "description": "Hotel sencillo y acogedor con servicios básicos.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/san_martin.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Hotel Central",
+    "type": "hotel",
+    "lat": -17.718,
+    "lng": -63.160,
+    "description": "Hotel céntrico con buena relación calidad-precio.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/central.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Hotel Las Palmas",
+    "type": "hotel",
+    "lat": -17.715,
+    "lng": -63.155,
+    "description": "Hotel con ambiente familiar y servicios cómodos.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/las_palmas.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Hotel Sol",
+    "type": "hotel",
+    "lat": -17.710,
+    "lng": -63.150,
+    "description": "Hotel económico con atención amable.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/sol.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Hotel Dorado",
+    "type": "hotel",
+    "lat": -17.705,
+    "lng": -63.145,
+    "description": "Hotel sencillo y confortable para viajeros.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/dorado.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Hotel La Estancia",
+    "type": "hotel",
+    "lat": -17.700,
+    "lng": -63.140,
+    "description": "Hotel con estilo colonial y ambiente relajado.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/la_estancia.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Hotel Mirador",
+    "type": "hotel",
+    "lat": -17.695,
+    "lng": -63.135,
+    "description": "Hotel con vista panorámica y servicios confortables.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/mirador.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Hotel La Campiña",
+    "type": "hotel",
+    "lat": -17.690,
+    "lng": -63.130,
+    "description": "Hotel campestre con ambiente tranquilo y cómodo.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/la_campina.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Hotel La Casona",
+    "type": "hotel",
+    "lat": -17.685,
+    "lng": -63.125,
+    "description": "Hotel boutique con estilo colonial y servicios personalizados.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/la_casona.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Hotel La Rivera",
+    "type": "hotel",
+    "lat": -17.680,
+    "lng": -63.120,
+    "description": "Hotel con ambiente familiar y buena ubicación.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/la_rivera.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Hotel Santa María",
+    "type": "hotel",
+    "lat": -17.675,
+    "lng": -63.115,
+    "description": "Hotel céntrico con atención amable y servicios básicos.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/santa_maria.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Hotel Las Rosas",
+    "type": "hotel",
+    "lat": -17.670,
+    "lng": -63.110,
+    "description": "Hotel cómodo con ambiente tranquilo y buena atención.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/las_rosas.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Hotel El Sol",
+    "type": "hotel",
+    "lat": -17.665,
+    "lng": -63.105,
+    "description": "Hotel sencillo con servicios básicos para viajeros.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/el_sol.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Hotel Estrella",
+    "type": "hotel",
+    "lat": -17.660,
+    "lng": -63.100,
+    "description": "Hotel económico con buena ubicación y atención amable.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/estrella.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Hotel Palma Real",
+    "type": "hotel",
+    "lat": -17.655,
+    "lng": -63.095,
+    "description": "Hotel con ambiente familiar y servicios cómodos.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/palma_real.jpg"
+  },
+  {
+    "id": 154,
+    "name": "Hotel Los Andes",
+    "type": "hotel",
+    "lat": -17.650,
+    "lng": -63.090,
+    "description": "Hotel clásico con buena atención y ubicación céntrica.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/los_andes.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Hotel Las Acacias",
+    "type": "hotel",
+    "lat": -17.645,
+    "lng": -63.085,
+    "description": "Hotel cómodo y accesible para viajeros de negocios.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/las_acacias.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Hotel Los Olivos",
+    "type": "hotel",
+    "lat": -17.640,
+    "lng": -63.080,
+    "description": "Hotel acogedor con buen ambiente y atención personalizada.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/los_olivos.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Hotel El Paraíso",
+    "type": "hotel",
+    "lat": -17.635,
+    "lng": -63.075,
+    "description": "Hotel tranquilo con jardines y ambiente relajado.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/el_paraiso.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Hotel Las Vegas",
+    "type": "hotel",
+    "lat": -17.630,
+    "lng": -63.070,
+    "description": "Hotel con buena ubicación y servicios completos.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/las_vegas.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Hotel Los Pinos",
+    "type": "hotel",
+    "lat": -17.625,
+    "lng": -63.065,
+    "description": "Hotel acogedor con ambiente familiar y buena atención.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/los_pinos.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Hotel El Bosque",
+    "type": "hotel",
+    "lat": -17.620,
+    "lng": -63.060,
+    "description": "Hotel con jardines y ambiente natural en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/el_bosque.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Hotel La Paz",
+    "type": "hotel",
+    "lat": -16.500,
+    "lng": -68.133,
+    "description": "Hotel en La Paz con excelente ubicación y servicios completos.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/la_paz_hotel.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Hotel Europa La Paz",
+    "type": "hotel",
+    "lat": -16.504,
+    "lng": -68.135,
+    "description": "Hotel boutique en La Paz con diseño europeo y servicios premium.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/europa_la_paz.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Casa Grande Hotel Boutique",
+    "type": "hotel",
+    "lat": -16.502,
+    "lng": -68.136,
+    "description": "Hotel boutique con estilo colonial y atención personalizada en La Paz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/casa_grande.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Stannum Boutique Hotel",
+    "type": "hotel",
+    "lat": -16.503,
+    "lng": -68.134,
+    "description": "Hotel boutique con ambiente íntimo y servicios exclusivos.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/stannum.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Atix Hotel La Paz",
+    "type": "hotel",
+    "lat": -16.505,
+    "lng": -68.130,
+    "description": "Hotel moderno con excelente ubicación y servicios de calidad.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/atix.jpg"
+  },
+  {
+    "id": 166,
+    "name": "Hotel Rosario La Paz",
+    "type": "hotel",
+    "lat": -16.506,
+    "lng": -68.132,
+    "description": "Hotel con arquitectura tradicional y atención cálida.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/rosario.jpg"
+  },
+  {
+    "id": 167,
+    "name": "Hotel Europa",
+    "type": "hotel",
+    "lat": -16.508,
+    "lng": -68.131,
+    "description": "Hotel boutique con diseño europeo y confort en La Paz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/europa.jpg"
+  },
+  {
+    "id": 168,
+    "name": "Casa de Piedra Hotel",
+    "type": "hotel",
+    "lat": -16.507,
+    "lng": -68.129,
+    "description": "Hotel con estilo rústico y ambiente acogedor.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/casa_piedra.jpg"
+  },
+  {
+    "id": 169,
+    "name": "Hotel Cortez",
+    "type": "hotel",
+    "lat": -16.509,
+    "lng": -68.127,
+    "description": "Hotel clásico con atención amable en La Paz.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/cortez_la_paz.jpg"
+  },
+  {
+    "id": 170,
+    "name": "Hotel La Casona",
+    "type": "hotel",
+    "lat": -16.511,
+    "lng": -68.126,
+    "description": "Hotel boutique con ambiente colonial y servicios personalizados.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/la_casona_la_paz.jpg"
+  },
+  {
+    "id": 171,
+    "name": "Hotel La Estancia",
+    "type": "hotel",
+    "lat": -16.513,
+    "lng": -68.125,
+    "description": "Hotel acogedor con ambiente tranquilo y buena ubicación.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/la_estancia_la_paz.jpg"
+  },
+  {
+    "id": 172,
+    "name": "Hotel La Rivera",
+    "type": "hotel",
+    "lat": -16.515,
+    "lng": -68.124,
+    "description": "Hotel con ambiente familiar y atención amable.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/la_rivera_la_paz.jpg"
+  },
+  {
+    "id": 173,
+    "name": "Hotel Mirador",
+    "type": "hotel",
+    "lat": -16.517,
+    "lng": -68.123,
+    "description": "Hotel con vista panorámica y servicios confortables.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/mirador_la_paz.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Hotel La Campiña",
+    "type": "hotel",
+    "lat": -16.519,
+    "lng": -68.122,
+    "description": "Hotel campestre con ambiente tranquilo y cómodo.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/la_campina_la_paz.jpg"
+  },
+  {
+    "id": 175,
+    "name": "Hotel La Casona",
+    "type": "hotel",
+    "lat": -16.521,
+    "lng": -68.121,
+    "description": "Hotel boutique con estilo colonial y servicios personalizados.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/la_casona2_la_paz.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Hotel Real",
+    "type": "hotel",
+    "lat": -20.298,
+    "lng": -66.156,
+    "description": "Hotel cómodo en Potosí con atención amable y servicios básicos.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/real_potosi.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Hotel Minas",
+    "type": "hotel",
+    "lat": -20.294,
+    "lng": -66.152,
+    "description": "Hotel tradicional en Potosí con ambiente acogedor.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/minas_potosi.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Hotel Plaza Potosí",
+    "type": "hotel",
+    "lat": -20.293,
+    "lng": -66.151,
+    "description": "Hotel céntrico en Potosí con buenas instalaciones.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/plaza_potosi.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Hotel Chuquisaca",
+    "type": "hotel",
+    "lat": -19.043,
+    "lng": -65.262,
+    "description": "Hotel en Sucre con ambiente histórico y cómodo.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/chuquisaca.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Hotel Tarija",
+    "type": "hotel",
+    "lat": -21.535,
+    "lng": -64.731,
+    "description": "Hotel en Tarija con servicios completos y buena atención.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/tarija.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Hotel Beni",
+    "type": "hotel",
+    "lat": -14.831,
+    "lng": -65.493,
+    "description": "Hotel cómodo en Trinidad, Beni, con atención personalizada.",
+    "rating": 4.1,
+    "image": "/src/assets/images/places/beni.jpg"
+  },
+  {
+    "id": 182,
+    "name": "Hotel Pando",
+    "type": "hotel",
+    "lat": -11.007,
+    "lng": -68.735,
+    "description": "Hotel acogedor en Cobija, Pando, con servicios básicos.",
+    "rating": 4.0,
+    "image": "/src/assets/images/places/pando.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Hotel Plaza",
+    "type": "hotel",
+    "lat": -17.775,
+    "lng": -63.195,
+    "description": "Hotel céntrico con buenas instalaciones en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/plaza.jpg"
+  },
+  {
+    "id": 184,
+    "name": "Parque Nacional Madidi",
+    "type": "attraction",
+    "lat": -14.217,
+    "lng": -67.671,
+    "description": "Uno de los parques nacionales más biodiversos del mundo, ubicado en La Paz, con selvas tropicales y fauna variada.",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/madidi.jpg"
+  },
+  {
+    "id": 185,
+    "name": "Salar de Uyuni",
+    "type": "attraction",
+    "lat": -20.1338,
+    "lng": -67.4891,
+    "description": "El salar más grande del mundo, una vasta extensión blanca de sal ubicada en Potosí, famosa por sus paisajes surrealistas.",
+    "rating": 5.0,
+    "image": "/src/assets/images/places/salar_uyuni.jpg"
+  },
+  {
+    "id": 186,
+    "name": "Tiwanaku",
+    "type": "attraction",
+    "lat": -16.5533,
+    "lng": -68.6736,
+    "description": "Sitio arqueológico preincaico cerca de La Paz, con ruinas de una antigua civilización andina.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/tiwanaku.jpg"
+  },
+  {
+    "id": 187,
+    "name": "Laguna Colorada",
+    "type": "attraction",
+    "lat": -22.0281,
+    "lng": -67.7928,
+    "description": "Laguna rojiza en el altiplano boliviano, famosa por sus flamencos y paisajes únicos.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/laguna_colorada.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Valle de la Luna",
+    "type": "attraction",
+    "lat": -16.4931,
+    "lng": -68.1347,
+    "description": "Formaciones rocosas erosionadas cerca de La Paz que parecen paisaje lunar.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/valle_luna.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Isla del Sol",
+    "type": "attraction",
+    "lat": -16.0471,
+    "lng": -69.1356,
+    "description": "Isla en el lago Titicaca famosa por sus ruinas incas y paisajes naturales.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/isla_del_sol.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Coroico",
+    "type": "attraction",
+    "lat": -16.2014,
+    "lng": -67.7633,
+    "description": "Pueblo en los Yungas conocido por su clima cálido y paisajes selváticos.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/coroico.jpg"
+  },
+  {
+    "id": 191,
+    "name": "Parque Arenal",
+    "type": "attraction",
+    "lat": -17.7821,
+    "lng": -63.1567,
+    "description": "Parque en Santa Cruz con áreas verdes y espacios para actividades recreativas.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/parque_arenal.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Chacaltaya",
+    "type": "attraction",
+    "lat": -16.3531,
+    "lng": -68.1307,
+    "description": "Antiguo centro de esquí y montaña cerca de La Paz, con vistas espectaculares del altiplano.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/chacaltaya.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Puente de las Américas",
+    "type": "attraction",
+    "lat": -17.786,
+    "lng": -63.182,
+    "description": "Paseo popular en Santa Cruz con vistas al río Piraí y áreas recreativas.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/puente_americas.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Ciudad de Sucre",
+    "type": "attraction",
+    "lat": -19.0333,
+    "lng": -65.2626,
+    "description": "Capital constitucional de Bolivia, conocida por su arquitectura colonial y ambiente histórico.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/sucre.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Parque Nacional Amboró",
+    "type": "attraction",
+    "lat": -17.6206,
+    "lng": -63.5104,
+    "description": "Parque nacional con biodiversidad excepcional entre Santa Cruz y Cochabamba.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/amboro.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Samaipata",
+    "type": "attraction",
+    "lat": -18.1896,
+    "lng": -64.6543,
+    "description": "Pueblo arqueológico con ruinas preincaicas y clima templado en Santa Cruz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/samaipata.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Cataratas del Arenal",
+    "type": "attraction",
+    "lat": -17.770,
+    "lng": -63.220,
+    "description": "Hermosas cascadas cerca de Santa Cruz, ideales para turismo de naturaleza.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/cataratas_arenal.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Lomas de Arena",
+    "type": "attraction",
+    "lat": -17.870,
+    "lng": -63.200,
+    "description": "Dunas de arena en el departamento de Santa Cruz para actividades recreativas.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/lomas_arena.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Laguna Verde",
+    "type": "attraction",
+    "lat": -22.196,
+    "lng": -67.792,
+    "description": "Laguna de aguas verde esmeralda situada en el altiplano boliviano, cerca del volcán Licancabur.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/laguna_verde.jpg"
+  },
+  {
+    "id": 200,
+    "name": "Potosí Cerro Rico",
+    "type": "attraction",
+    "lat": -19.5885,
+    "lng": -65.7535,
+    "description": "Famoso cerro donde se extraía plata durante la época colonial, declarado Patrimonio de la Humanidad.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/cerro_rico.jpg"
+  },
+  {
+    "id": 201,
+    "name": "Museo del Tesoro",
+    "type": "attraction",
+    "lat": -19.5861,
+    "lng": -65.7530,
+    "description": "Museo en Potosí que exhibe joyas y tesoros coloniales.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/museo_tesoro.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Yungas de La Paz",
+    "type": "attraction",
+    "lat": -16.9500,
+    "lng": -67.0000,
+    "description": "Zona montañosa tropical con caminos famosos y biodiversidad exuberante.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/yungas.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Laguna Saipina",
+    "type": "attraction",
+    "lat": -17.500,
+    "lng": -63.200,
+    "description": "Laguna natural en el departamento de Santa Cruz, ideal para paseos y picnic.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/laguna_saipina.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Camino de la Muerte",
+    "type": "attraction",
+    "lat": -16.467,
+    "lng": -67.765,
+    "description": "Famoso camino montañoso para ciclismo extremo cerca de La Paz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/camino_muerte.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Museo Nacional de Arte",
+    "type": "attraction",
+    "lat": -16.500,
+    "lng": -68.133,
+    "description": "Museo ubicado en La Paz con exposiciones de arte boliviano e internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/museo_arte.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Parque Noel Kempff Mercado",
+    "type": "attraction",
+    "lat": -14.783,
+    "lng": -60.817,
+    "description": "Reserva natural con cascadas, selvas y rica biodiversidad en Santa Cruz.",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/noel_kempff.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Mercado Central de Sucre",
+    "type": "attraction",
+    "lat": -19.034,
+    "lng": -65.262,
+    "description": "Mercado tradicional con productos típicos y artesanías en Sucre.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/mercado_sucre.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Museo de la Recoleta",
+    "type": "attraction",
+    "lat": -19.035,
+    "lng": -65.261,
+    "description": "Museo histórico ubicado en Sucre con colecciones arqueológicas y artísticas.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/museo_recoleta.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Mirador de Samaipata",
+    "type": "attraction",
+    "lat": -18.193,
+    "lng": -64.653,
+    "description": "Punto panorámico con vistas del pueblo y las ruinas arqueológicas.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/mirador_samaipata.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Cataratas Arcoíris",
+    "type": "attraction",
+    "lat": -17.75,
+    "lng": -63.20,
+    "description": "Hermosas cascadas con arcoíris frecuentes, un atractivo natural de Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/cataratas_arcoiris.jpg"
+  },
+  {
+    "id": 211,
+    "name": "Museo Tambo Quirquincho",
+    "type": "attraction",
+    "lat": -16.504,
+    "lng": -68.130,
+    "description": "Museo en La Paz con exhibiciones de historia y cultura andina.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/tambo_quirquincho.jpg"
+  },
+  {
+    "id": 212,
+    "name": "Plaza 24 de Septiembre",
+    "type": "attraction",
+    "lat": -19.033,
+    "lng": -65.262,
+    "description": "Plaza principal en Sucre, centro histórico y cultural de la ciudad.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/plaza_24_septiembre.jpg"
+  },
+  {
+    "id": 213,
+    "name": "El Fuerte de Samaipata",
+    "type": "attraction",
+    "lat": -18.190,
+    "lng": -64.655,
+    "description": "Ruinas arqueológicas declaradas Patrimonio Mundial por la UNESCO.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/fuerte_samaipata.jpg"
+  },
+  {
+    "id": 214,
+    "name": "Parque Urbano Central",
+    "type": "attraction",
+    "lat": -17.783,
+    "lng": -63.180,
+    "description": "Parque principal de Santa Cruz con áreas verdes y espacios culturales.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/parque_urbano.jpg"
+  },
+  {
+    "id": 215,
+    "name": "Museo del Carnaval",
+    "type": "attraction",
+    "lat": -17.783,
+    "lng": -63.190,
+    "description": "Museo en Santa Cruz dedicado a la historia y tradiciones del Carnaval cruceño.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/museo_carnaval.jpg"
+  },
+  {
+    "id": 216,
+    "name": "Laguna Mitoco",
+    "type": "attraction",
+    "lat": -17.740,
+    "lng": -63.190,
+    "description": "Laguna natural con áreas para la recreación en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/laguna_mitoco.jpg"
+  },
+  {
+    "id": 217,
+    "name": "Reserva Ecológica Guembe",
+    "type": "attraction",
+    "lat": -17.800,
+    "lng": -63.140,
+    "description": "Reserva natural con mariposario y senderos en Santa Cruz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/guembe.jpg"
+  },
+  {
+    "id": 218,
+    "name": "Lago Titicaca",
+    "type": "attraction",
+    "lat": -16.000,
+    "lng": -69.000,
+    "description": "El lago navegable más alto del mundo, con paisajes y cultura única.",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/titicaca.jpg"
+  },
+  {
+    "id": 219,
+    "name": "La Cueva de San Ignacio",
+    "type": "attraction",
+    "lat": -16.398,
+    "lng": -62.152,
+    "description": "Sitio arqueológico y cueva histórica en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/cueva_san_ignacio.jpg"
+  },
+  {
+    "id": 220,
+    "name": "Catedral Metropolitana de La Paz",
+    "type": "attraction",
+    "lat": -16.500,
+    "lng": -68.130,
+    "description": "Catedral emblemática con arquitectura colonial en La Paz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/catedral_lapaz.jpg"
+  },
+  {
+    "id": 221,
+    "name": "Parque El Arenal",
+    "type": "attraction",
+    "lat": -17.783,
+    "lng": -63.180,
+    "description": "Parque recreativo en Santa Cruz con lagunas y áreas verdes.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/parque_arenal2.jpg"
+  },
+  {
+    "id": 222,
+    "name": "Museo del Litoral Boliviano",
+    "type": "attraction",
+    "lat": -16.503,
+    "lng": -68.130,
+    "description": "Museo en La Paz que exhibe la historia del litoral perdido de Bolivia.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/museo_litoral.jpg"
+  },
+  {
+    "id": 223,
+    "name": "Isla Incahuasi",
+    "type": "attraction",
+    "lat": -20.258,
+    "lng": -67.522,
+    "description": "Isla en medio del Salar de Uyuni con cactus gigantes y paisaje único.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/incahuasi.jpg"
+  },
+  {
+    "id": 224,
+    "name": "Mercado Lanza",
+    "type": "attraction",
+    "lat": -16.500,
+    "lng": -68.131,
+    "description": "Mercado tradicional en La Paz para comprar productos locales y artesanías.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/mercado_lanza.jpg"
+  },
+  {
+    "id": 225,
+    "name": "Catedral de Sucre",
+    "type": "attraction",
+    "lat": -19.033,
+    "lng": -65.262,
+    "description": "Iglesia colonial emblemática en el centro histórico de Sucre.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/catedral_sucre.jpg"
+  },
+  {
+    "id": 226,
+    "name": "Reserva Nacional de Fauna Andina Eduardo Avaroa",
+    "type": "attraction",
+    "lat": -21.166,
+    "lng": -67.833,
+    "description": "Reserva protegida famosa por sus lagunas, flamencos y géiseres.",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/eduardo_avaroa.jpg"
+  },
+  {
+    "id": 227,
+    "name": "Iglesia de San Francisco",
+    "type": "attraction",
+    "lat": -16.505,
+    "lng": -68.130,
+    "description": "Iglesia barroca en La Paz, un ícono arquitectónico y cultural.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/san_francisco.jpg"
+  },
+  {
+    "id": 228,
+    "name": "Cueva de Umajalanta",
+    "type": "attraction",
+    "lat": -18.100,
+    "lng": -65.333,
+    "description": "Una de las cuevas más grandes de Bolivia, ubicada en Tarija.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/umajalanta.jpg"
+  },
+  {
+    "id": 229,
+    "name": "Museo Nacional de Arqueología",
+    "type": "attraction",
+    "lat": -16.507,
+    "lng": -68.131,
+    "description": "Museo con colecciones precolombinas y arqueológicas en La Paz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/museo_arqueologia.jpg"
+  },
+  {
+    "id": 230,
+    "name": "Balneario El Palmar",
+    "type": "attraction",
+    "lat": -17.750,
+    "lng": -63.170,
+    "description": "Área recreativa con piscinas y zonas de descanso en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/palmar.jpg"
+  },
+  {
+    "id": 231,
+    "name": "Fuerte de Samaipata",
+    "type": "attraction",
+    "lat": -18.189,
+    "lng": -64.653,
+    "description": "Sitio arqueológico preincaico declarado Patrimonio Mundial.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/fuerte_samaipata2.jpg"
+  },
+  {
+    "id": 232,
+    "name": "Parque Machía",
+    "type": "attraction",
+    "lat": -17.790,
+    "lng": -63.200,
+    "description": "Parque urbano con áreas verdes y recreativas en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/machia.jpg"
+  },
+  {
+    "id": 233,
+    "name": "Mercado Los Pozos",
+    "type": "attraction",
+    "lat": -17.770,
+    "lng": -63.190,
+    "description": "Mercado tradicional de Santa Cruz con productos frescos y artesanías.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/mercado_pozos.jpg"
+  },
+  {
+    "id": 234,
+    "name": "Plaza Principal de Tarija",
+    "type": "attraction",
+    "lat": -21.535,
+    "lng": -64.728,
+    "description": "Plaza central de Tarija con arquitectura colonial y vida cultural activa.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/plaza_tarija.jpg"
+  },
+  {
+    "id": 235,
+    "name": "Estadio Hernando Siles",
+    "type": "attraction",
+    "lat": -16.513,
+    "lng": -68.136,
+    "description": "Principal estadio deportivo de La Paz con capacidad para grandes eventos.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/hernando_siles.jpg"
+  },
+  {
+    "id": 236,
+    "name": "Laguna Volcán",
+    "type": "attraction",
+    "lat": -17.850,
+    "lng": -63.210,
+    "description": "Laguna natural con aguas tranquilas cerca de Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/laguna_volcan.jpg"
+  },
+  {
+    "id": 237,
+    "name": "Catedral de Tarija",
+    "type": "attraction",
+    "lat": -21.537,
+    "lng": -64.728,
+    "description": "Catedral histórica en Tarija con arquitectura neoclásica.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/catedral_tarija.jpg"
+  },
+  {
+    "id": 238,
+    "name": "Museo Nacional de Etnografía y Folklore",
+    "type": "attraction",
+    "lat": -16.501,
+    "lng": -68.134,
+    "description": "Museo en La Paz dedicado a las culturas indígenas y tradiciones folklóricas.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/museo_etnografia.jpg"
+  },
+  {
+    "id": 239,
+    "name": "Pueblos Indígenas Yuracaré",
+    "type": "attraction",
+    "lat": -15.500,
+    "lng": -66.500,
+    "description": "Comunidad indígena con cultura tradicional en el Beni.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/yuracare.jpg"
+  },
+  {
+    "id": 240,
+    "name": "Río Mamoré",
+    "type": "attraction",
+    "lat": -14.833,
+    "lng": -65.497,
+    "description": "Importante río amazónico que atraviesa el Beni, ideal para turismo fluvial.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/riomamore.jpg"
+  },
+  {
+    "id": 241,
+    "name": "Reserva Natural El Palmar",
+    "type": "attraction",
+    "lat": -17.745,
+    "lng": -63.185,
+    "description": "Reserva natural con palmeras y fauna diversa en Santa Cruz.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/el_palmar.jpg"
+  },
+  {
+    "id": 242,
+    "name": "Mercado Central de Tarija",
+    "type": "attraction",
+    "lat": -21.535,
+    "lng": -64.730,
+    "description": "Mercado tradicional con productos regionales y artesanías.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/mercado_tarija.jpg"
+  },
+  {
+    "id": 243,
+    "name": "Ciudad de Cobija",
+    "type": "attraction",
+    "lat": -11.026,
+    "lng": -68.760,
+    "description": "Capital del departamento de Pando, con mercados y vida cultural propia.",
+    "rating": 4.2,
+    "image": "/src/assets/images/places/cobija.jpg"
+  },
+  {
+    "id": 244,
+    "name": "Museo Tahuamanu",
+    "type": "attraction",
+    "lat": -11.030,
+    "lng": -68.760,
+    "description": "Museo en Cobija con colecciones sobre la historia y cultura amazónica.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/tahuamanu.jpg"
+  },
+  {
+    "id": 245,
+    "name": "Iglesia San Roque",
+    "type": "attraction",
+    "lat": -19.033,
+    "lng": -65.260,
+    "description": "Iglesia histórica en Sucre, ejemplo de arquitectura colonial.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/san_roque.jpg"
+  },
+  {
+    "id": 246,
+    "name": "Parque Nacional Noel Kempff Mercado",
+    "type": "attraction",
+    "lat": -14.773,
+    "lng": -60.815,
+    "description": "Gran reserva natural con bosques, ríos y cascadas en Santa Cruz.",
+    "rating": 4.9,
+    "image": "/src/assets/images/places/noel_kempff2.jpg"
+  },
+  {
+    "id": 247,
+    "name": "Mercado Campesino La Paz",
+    "type": "attraction",
+    "lat": -16.510,
+    "lng": -68.135,
+    "description": "Mercado popular con productos frescos y artesanías tradicionales.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/campesino.jpg"
+  },
+  {
+    "id": 248,
+    "name": "Pueblo de Samaipata",
+    "type": "attraction",
+    "lat": -18.187,
+    "lng": -64.653,
+    "description": "Pueblo con ambiente tranquilo y ruinas arqueológicas cercanas.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/pueblo_samaipata.jpg"
+  },
+  {
+    "id": 249,
+    "name": "Laguna Laja",
+    "type": "attraction",
+    "lat": -17.720,
+    "lng": -63.210,
+    "description": "Laguna natural para paseos y actividades al aire libre en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/laguna_laja.jpg"
+  },
+  {
+    "id": 250,
+    "name": "Castillo de la Glorieta",
+    "type": "attraction",
+    "lat": -16.500,
+    "lng": -68.131,
+    "description": "Castillo histórico en La Paz con arquitectura europea.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/castillo_glorieta.jpg"
+  },
+  {
+    "id": 251,
+    "name": "Iglesia de la Merced",
+    "type": "attraction",
+    "lat": -19.033,
+    "lng": -65.262,
+    "description": "Iglesia colonial en Sucre, centro religioso y turístico.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/merced.jpg"
+  },
+  {
+    "id": 252,
+    "name": "Mirador Killi Killi",
+    "type": "attraction",
+    "lat": -16.503,
+    "lng": -68.130,
+    "description": "Mirador con vistas panorámicas de La Paz y sus alrededores.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/killi_killi.jpg"
+  },
+  {
+    "id": 253,
+    "name": "Parque Zoológico Vesty Pakos",
+    "type": "attraction",
+    "lat": -17.790,
+    "lng": -63.180,
+    "description": "Zoológico ubicado en Santa Cruz con especies autóctonas y exóticas.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/zoo_vesty.jpg"
+  },
+  {
+    "id": 254,
+    "name": "Museo de Arte Contemporáneo",
+    "type": "attraction",
+    "lat": -16.505,
+    "lng": -68.132,
+    "description": "Museo en La Paz con exposiciones de arte moderno boliviano e internacional.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/museo_contemporaneo.jpg"
+  },
+  {
+    "id": 255,
+    "name": "Reserva Ecológica Carrasco",
+    "type": "attraction",
+    "lat": -16.800,
+    "lng": -65.100,
+    "description": "Reserva natural con bosques húmedos y biodiversidad en Cochabamba.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/carrasco.jpg"
+  },
+  {
+    "id": 256,
+    "name": "Iglesia de San Lorenzo",
+    "type": "attraction",
+    "lat": -17.786,
+    "lng": -63.189,
+    "description": "Iglesia histórica en Santa Cruz con arquitectura colonial.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/san_lorenzo.jpg"
+  },
+  {
+    "id": 257,
+    "name": "Plaza 24 de Marzo",
+    "type": "attraction",
+    "lat": -16.504,
+    "lng": -68.130,
+    "description": "Plaza céntrica en La Paz con monumentos históricos.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/plaza_24_marzo.jpg"
+  },
+  {
+    "id": 258,
+    "name": "Museo Casa de la Libertad",
+    "type": "attraction",
+    "lat": -19.034,
+    "lng": -65.261,
+    "description": "Museo en Sucre donde se firmó la independencia de Bolivia.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/casa_libertad.jpg"
+  },
+  {
+    "id": 259,
+    "name": "Laguna Glaciar Tuni",
+    "type": "attraction",
+    "lat": -16.325,
+    "lng": -68.040,
+    "description": "Laguna de origen glaciar en la Cordillera Real cerca de La Paz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/laguna_tuni.jpg"
+  },
+  {
+    "id": 260,
+    "name": "Islas del Lago Titicaca",
+    "type": "attraction",
+    "lat": -16.040,
+    "lng": -69.140,
+    "description": "Islas con comunidades indígenas y paisajes naturales en el Lago Titicaca.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/islas_titicaca.jpg"
+  },
+  {
+    "id": 261,
+    "name": "Cataratas de Palmarito",
+    "type": "attraction",
+    "lat": -17.750,
+    "lng": -63.200,
+    "description": "Cascadas naturales y zona de picnic en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/cataratas_palmarito.jpg"
+  },
+  {
+    "id": 262,
+    "name": "Museo Casa Dorada",
+    "type": "attraction",
+    "lat": -19.034,
+    "lng": -65.260,
+    "description": "Museo histórico en Sucre con arte y mobiliario colonial.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/casa_dorada.jpg"
+  },
+  {
+    "id": 263,
+    "name": "Laguna Verde de Sajama",
+    "type": "attraction",
+    "lat": -18.068,
+    "lng": -68.885,
+    "description": "Laguna en el Parque Nacional Sajama, con vistas al volcán Sajama.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/laguna_verde_sajama.jpg"
+  },
+  {
+    "id": 264,
+    "name": "Catedral Metropolitana de Cochabamba",
+    "type": "attraction",
+    "lat": -17.390,
+    "lng": -66.160,
+    "description": "Catedral principal de Cochabamba con arquitectura colonial.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/catedral_cochabamba.jpg"
+  },
+  {
+    "id": 265,
+    "name": "Reserva de Vida Silvestre Beni",
+    "type": "attraction",
+    "lat": -14.500,
+    "lng": -65.000,
+    "description": "Reserva natural con fauna amazónica y diversidad ecológica.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/reserva_beni.jpg"
+  },
+  {
+    "id": 266,
+    "name": "Puente De Hierro",
+    "type": "attraction",
+    "lat": -17.783,
+    "lng": -63.190,
+    "description": "Puente histórico y atractivo turístico en Santa Cruz.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/puente_hierro.jpg"
+  },
+  {
+    "id": 267,
+    "name": "Parque La Torre",
+    "type": "attraction",
+    "lat": -17.765,
+    "lng": -63.185,
+    "description": "Parque con áreas verdes y monumentos en Santa Cruz.",
+    "rating": 4.3,
+    "image": "/src/assets/images/places/parque_torre.jpg"
+  },
+  {
+    "id": 268,
+    "name": "Laguna Alalay",
+    "type": "attraction",
+    "lat": -17.390,
+    "lng": -66.155,
+    "description": "Laguna urbana en Cochabamba para recreación y deportes acuáticos.",
+    "rating": 4.4,
+    "image": "/src/assets/images/places/laguna_alalay.jpg"
+  },
+  {
+    "id": 269,
+    "name": "Catedral de Trinidad",
+    "type": "attraction",
+    "lat": -14.833,
+    "lng": -64.900,
+    "description": "Catedral principal de Trinidad, Beni, con arquitectura colonial.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/catedral_trinidad.jpg"
+  },
+  {
+    "id": 270,
+    "name": "Monumento a la Virgen de Urkupiña",
+    "type": "attraction",
+    "lat": -17.383,
+    "lng": -66.154,
+    "description": "Monumento religioso y cultural en Cochabamba, lugar de peregrinación.",
+    "rating": 4.7,
+    "image": "/src/assets/images/places/urkupina.jpg"
+  },
+  {
+    "id": 271,
+    "name": "Parque Nacional Carrasco",
+    "type": "attraction",
+    "lat": -17.750,
+    "lng": -65.160,
+    "description": "Área protegida con bosques y biodiversidad en Cochabamba.",
+    "rating": 4.8,
+    "image": "/src/assets/images/places/carrasco2.jpg"
+  },
+  {
+    "id": 272,
+    "name": "Mirador de La Paz",
+    "type": "attraction",
+    "lat": -16.505,
+    "lng": -68.130,
+    "description": "Mirador panorámico con vistas de toda la ciudad de La Paz.",
+    "rating": 4.6,
+    "image": "/src/assets/images/places/mirador_lapaz.jpg"
+  },
+  {
+    "id": 273,
+    "name": "Parque El Arenal",
+    "type": "attraction",
+    "lat": -17.784,
+    "lng": -63.175,
+    "description": "Popular parque recreativo en Santa Cruz con áreas verdes y lagunas.",
+    "rating": 4.5,
+    "image": "/src/assets/images/places/arenal3.jpg"
+  }
+]
